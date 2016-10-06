@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="eztax.F1040EzResult">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/taxDue/GETTER#0">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/messagesList/GETTER#0">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/statusCode/GETTER#0">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178">
+            <vocElt id="eztax.F1040EzResult"/>
+            <vocElt id="eztax.F1040EzResult/taxDue/GETTER#0"/>
+            <vocElt id="eztax.F1040EzResult/messagesList/GETTER#0"/>
+            <vocElt id="eztax.F1040EzResult/statusCode/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="RESULT">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178">
+            <param id="RESULT"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="0f767172-7ac7-4e66-90b2-109b77555c57">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking Tax Rules/bom/tax_model_en_US.voc" id="c96b0421-093c-4d43-925c-a2b9624647e3">
+            <rule id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking Tax Rules/rules/Taxation process.rfl" id="2ce698dc-5f41-4ff2-a628-49eabe933178"/>
+        <resource file="/Banking Tax Rules/rules/Parameters.var" id="0f767172-7ac7-4e66-90b2-109b77555c57"/>
+    </resourceTable>
+</impactTables>

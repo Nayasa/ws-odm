@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable/>
+    <vocTable/>
+    <ruleParamTable>
+        <param id="medicalAttentionNeeded">
+            <rule id="454ce942-bc92-4c17-bcf3-c4859ede34f3"/>
+        </param>
+        <param id="healthSentiment">
+            <rule id="454ce942-bc92-4c17-bcf3-c4859ede34f3"/>
+        </param>
+        <param id="collisionSeverity">
+            <rule id="daf1ffe6-b345-4ef4-be9e-95d0c126748b"/>
+            <rule id="454ce942-bc92-4c17-bcf3-c4859ede34f3"/>
+        </param>
+        <param id="speedDifference">
+            <rule id="daf1ffe6-b345-4ef4-be9e-95d0c126748b"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="daf1ffe6-b345-4ef4-be9e-95d0c126748b">
+            <param id="collisionSeverity"/>
+            <param id="speedDifference"/>
+        </rule>
+        <rule id="454ce942-bc92-4c17-bcf3-c4859ede34f3">
+            <param id="medicalAttentionNeeded"/>
+            <param id="collisionSeverity"/>
+            <param id="healthSentiment"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="daf1ffe6-b345-4ef4-be9e-95d0c126748b"/>
+        <rule id="454ce942-bc92-4c17-bcf3-c4859ede34f3"/>
+    </projectTable>
+    <variableTable>
+        <param id="cc79e989-349b-4d38-a05d-a2a6bc6eb385">
+            <rule id="daf1ffe6-b345-4ef4-be9e-95d0c126748b"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable/>
+    <resourceTable>
+        <resource file="/CollisionRules" id="52370516-4684-4bca-bebe-fbd93ec6d57c"/>
+        <resource file="/CollisionRules/rules/vars.var" id="cc79e989-349b-4d38-a05d-a2a6bc6eb385"/>
+        <resource file="/CollisionRules/rules/collision/SpeedAnalysis.dta" id="daf1ffe6-b345-4ef4-be9e-95d0c126748b"/>
+        <resource file="/CollisionRules/rules/collision/HealthSentimentAnalysis.dta" id="454ce942-bc92-4c17-bcf3-c4859ede34f3"/>
+    </resourceTable>
+</impactTables>

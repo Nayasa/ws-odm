@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>MPG</name>
+  <uuid>5f530d7b-8bec-46a6-ae8f-157b69ba632b</uuid>
+</ilog.rules.studio.model.base:RulePackage>

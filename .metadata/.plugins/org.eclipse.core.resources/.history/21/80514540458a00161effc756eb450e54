@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calculate Lineholder PTC</name>
+  <uuid>afea1446-ba90-4cda-9fbd-f132113dfa71</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions 
+	set 'the final LPV hours' to the final LPVHrs of 'The Pay Calculator Output' ;
+then 
+	  set the final PTCHrs of 'The Pay Calculator Output' to  'the final LPV hours'  ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="myproduct.MyProductQuoteRequest/quantity/GETTER#0">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </vocElt>
+        <vocElt id="myproduct.MyProductQuoteRequest">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </vocElt>
+        <vocElt id="myproduct.MyProductQuoteResponse/unitPrice/SETTER#0">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </vocElt>
+        <vocElt id="myproduct.MyProductQuoteResponse">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49">
+            <vocElt id="myproduct.MyProductQuoteRequest/quantity/GETTER#0"/>
+            <vocElt id="myproduct.MyProductQuoteRequest"/>
+            <vocElt id="myproduct.MyProductQuoteResponse/unitPrice/SETTER#0"/>
+            <vocElt id="myproduct.MyProductQuoteResponse"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="quoteRequest">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </param>
+        <param id="quoteResponse">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49">
+            <param id="quoteRequest"/>
+            <param id="quoteResponse"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+    </projectTable>
+    <variableTable/>
+    <ruleVocFileTable>
+        <vocFile file="/MyProductPricingRules/bom/model_en_US.voc" id="98d99d91-449b-43b0-a5b2-9ef742608e0d">
+            <rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/MyProductPricingRules/rules/quantity.dta" id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49"/>
+        <resource file="/MyProductPricingRules" id="baadf6dd-7bd2-42df-801b-66a19807a1b6"/>
+    </resourceTable>
+</impactTables>

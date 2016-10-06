@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.sample.ShoppingCart">
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/sort(java.lang.Object[])/ACTION#0">
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+        </vocElt>
+        <vocElt id="com.sample.Item/price/GETTER#0">
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/containsAll(java.util.Collection,java.util.Collection)/NAVIGATION#0">
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+        </vocElt>
+        <vocElt id="com.sample.ShoppingCart/items/SETTER#0">
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+            <rule id="8391b791-4430-409f-85d8-b7c39f912cc9"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </vocElt>
+        <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </vocElt>
+        <vocElt id="com.sample.Item/name/GETTER#0">
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/add(java.util.Collection,java.lang.Object)/ACTION#0">
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </vocElt>
+        <vocElt id="com.sample.Item">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/addAll(java.util.Collection,java.util.Collection)/ACTION#0">
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/asSingle(java.util.Collection)/NAVIGATION#0">
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/clearAll(java.util.Collection)/ACTION#0">
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+        </vocElt>
+        <vocElt id="com.sample.ShoppingCart/items/GETTER#0">
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/copy(java.util.Collection)/NAVIGATION#0">
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+        </vocElt>
+        <vocElt id="ilog.rules.brl.Collections/sort(java.util.Collection)/ACTION#0">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="8391b791-4430-409f-85d8-b7c39f912cc9"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59">
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Item"/>
+            <vocElt id="ilog.rules.brl.Collections/sort(java.util.Collection)/ACTION#0"/>
+        </rule>
+        <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d">
+            <vocElt id="com.sample.ShoppingCart"/>
+            <vocElt id="com.sample.ShoppingCart/items/GETTER#0"/>
+            <vocElt id="com.sample.ShoppingCart/items/SETTER#0"/>
+            <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/containsAll(java.util.Collection,java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Item"/>
+        </rule>
+        <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b">
+            <vocElt id="ilog.rules.brl.Collections/clearAll(java.util.Collection)/ACTION#0"/>
+            <vocElt id="com.sample.ShoppingCart"/>
+            <vocElt id="com.sample.Item/price/GETTER#0"/>
+            <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/add(java.util.Collection,java.lang.Object)/ACTION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/addAll(java.util.Collection,java.util.Collection)/ACTION#0"/>
+            <vocElt id="com.sample.Item"/>
+            <vocElt id="ilog.rules.brl.Collections/asSingle(java.util.Collection)/NAVIGATION#0"/>
+        </rule>
+        <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b">
+            <vocElt id="ilog.rules.brl.Collections/copy(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Item"/>
+            <vocElt id="ilog.rules.brl.Collections/asSingle(java.util.Collection)/NAVIGATION#0"/>
+        </rule>
+        <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f">
+            <vocElt id="ilog.rules.brl.Collections/sort(java.lang.Object[])/ACTION#0"/>
+            <vocElt id="com.sample.Item/price/GETTER#0"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Item"/>
+        </rule>
+        <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9">
+            <vocElt id="ilog.rules.brl.Collections/sort(java.lang.Object[])/ACTION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Item"/>
+        </rule>
+        <rule id="8391b791-4430-409f-85d8-b7c39f912cc9">
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/sort(java.util.Collection)/ACTION#0"/>
+        </rule>
+        <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264">
+            <vocElt id="com.sample.ShoppingCart"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Helper/createItem(int,java.lang.String)/NAVIGATION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/add(java.util.Collection,java.lang.Object)/ACTION#0"/>
+            <vocElt id="ilog.rules.brl.Collections/addAll(java.util.Collection,java.util.Collection)/ACTION#0"/>
+            <vocElt id="com.sample.Item"/>
+        </rule>
+        <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d">
+            <vocElt id="com.sample.Item/price/GETTER#0"/>
+            <vocElt id="ilog.rules.brl.Collections/toString(java.util.Collection)/NAVIGATION#0"/>
+            <vocElt id="com.sample.Item/name/GETTER#0"/>
+            <vocElt id="com.sample.Item"/>
+            <vocElt id="ilog.rules.brl.Collections/sort(java.util.Collection)/ACTION#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="myShoppingCart">
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </param>
+        <param id="myArray">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </param>
+        <param id="myItem">
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </param>
+        <param id="myCollection">
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="8391b791-4430-409f-85d8-b7c39f912cc9"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59">
+            <param id="myArray"/>
+        </rule>
+        <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d">
+            <param id="myShoppingCart"/>
+            <param id="myItem"/>
+            <param id="myArray"/>
+        </rule>
+        <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b">
+            <param id="myShoppingCart"/>
+            <param id="myArray"/>
+            <param id="myItem"/>
+            <param id="myCollection"/>
+        </rule>
+        <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b">
+            <param id="myArray"/>
+            <param id="myItem"/>
+            <param id="myCollection"/>
+        </rule>
+        <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f">
+            <param id="myItem"/>
+            <param id="myCollection"/>
+        </rule>
+        <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9">
+            <param id="myArray"/>
+        </rule>
+        <rule id="8391b791-4430-409f-85d8-b7c39f912cc9">
+            <param id="myCollection"/>
+        </rule>
+        <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264">
+            <param id="myShoppingCart"/>
+            <param id="myItem"/>
+            <param id="myArray"/>
+            <param id="myCollection"/>
+        </rule>
+        <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d">
+            <param id="myItem"/>
+            <param id="myCollection"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="505d03db-cff1-4d07-8c43-5a83197b63c7">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+            <rule id="8391b791-4430-409f-85d8-b7c39f912cc9"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/collections-rules/bom/tools_en.voc" id="ed716062-c75d-4fa7-9af6-3855ca7691c1">
+            <rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+            <rule id="8391b791-4430-409f-85d8-b7c39f912cc9"/>
+            <rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        </vocFile>
+        <vocFile file="/collections-rules/bom/samples_en.voc" id="9dc63546-2f81-4f1b-a09b-d1910cbfd516">
+            <rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+            <rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+            <rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+            <rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+            <rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+            <rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/collections-rules/rules/correctUsage/sortCollection.brl" id="8391b791-4430-409f-85d8-b7c39f912cc9"/>
+        <resource file="/collections-rules/rules/incorrectUsage/addToArray.brl" id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264"/>
+        <resource file="/collections-rules/rules/correctUsage/addToCollection.brl" id="d52cf66d-2826-413d-8fe3-17e30ee0f78b"/>
+        <resource file="/collections-rules/rules/incorrectUsage/sortArray.brl" id="cc90bd2f-ce15-4f15-989d-a145ba56dd59"/>
+        <resource file="/collections-rules/rules/correctUsage/sortArray.brl" id="d336faa9-f599-4cc5-8a0a-0d672d3381d9"/>
+        <resource file="/collections-rules/rules/incorrectUsage/sortCollection.brl" id="3e131ebf-cf75-461d-a365-9b6951dfe59f"/>
+        <resource file="/collections-rules/rules/incorrectUsage/sortCollectionDiffTypes.brl" id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d"/>
+        <resource file="/collections-rules/rules/collections-rulesParameters.var" id="505d03db-cff1-4d07-8c43-5a83197b63c7"/>
+        <resource file="/collections-rules/rules/correctUsage/setCollection.brl" id="c03d185d-fad6-480b-ae8a-aa1addb86f9b"/>
+        <resource file="/collections-rules/rules/correctUsage/setArray.brl" id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d"/>
+    </resourceTable>
+</impactTables>

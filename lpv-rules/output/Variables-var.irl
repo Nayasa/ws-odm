@@ -1,0 +1,7 @@
+variables {
+  double legBlockDollarValue = 0.00;
+  double var1 = 0.00;
+  double dutyBlockDollarValue = 0.00;
+  double tripBlockDollarValue = 0.00;
+  java.lang.String myVar;
+}

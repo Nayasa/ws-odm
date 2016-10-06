@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Package id="Bundle Price.Discounts and Promotions">
+        <UserFlow id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+    </Package>
+    <Package id="Product Price.Discounts and Promotions">
+        <UserFlow id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+    </Package>
+    <Package id="Bundle Price.Bundle Final Price">
+        <UserFlow id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+    </Package>
+    <Package id="Product Price.Catalog Price">
+        <UserFlow id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+    </Package>
+    <Package id="Bundle Price.Products in Bundle Price">
+        <UserFlow id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+    </Package>
+</ImpactedElements>

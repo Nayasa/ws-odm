@@ -1,0 +1,12 @@
+package Initial_Calculation.MPG {
+   rule Calculate_Reserve_MPG {
+      property ilog.rules.business_name = "Calculate Reserve MPG";
+      property ilog.rules.package_name = "Initial Calculation.MPG";
+      property status = "new";
+      when {
+         IlrContext() from ?context;
+      } then {
+      }
+   }
+}
+

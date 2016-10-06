@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variables</name>
+  <uuid>5e32b8c7-23f6-4600-9985-f5577e0242ed</uuid>
+  <variables name="legBlockDollarValue" type="double" initialValue="" verbalization="The Leg Block Dollar Value"/>
+  <variables name="var1" type="double" initialValue="0.00" verbalization="var1"/>
+</ilog.rules.studio.model.base:VariableSet>

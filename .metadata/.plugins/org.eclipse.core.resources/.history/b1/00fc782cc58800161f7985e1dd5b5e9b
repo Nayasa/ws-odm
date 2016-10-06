@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calculate LPV hours for leg</name>
+  <uuid>bf969c78-bf6c-4702-bb37-1a1a9a984eb3</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions 
+	set 'No of pairings' to the number of elements in the pairings of 'The Pilot Calendar' ;
+	set 'No of Duties' to the number of elements in the duties of  
+	 ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

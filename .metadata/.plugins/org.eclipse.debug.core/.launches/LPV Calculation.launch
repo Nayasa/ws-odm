@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/LPVCalcDecisionService/deployment/LPV Calculation.dop"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LPVCalcDecisionService"/>
+</launchConfiguration>

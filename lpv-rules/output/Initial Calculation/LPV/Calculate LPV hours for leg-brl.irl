@@ -1,0 +1,25 @@
+package Initial_Calculation.LPV {
+   use var1;
+   use legBlockDollarValue;
+   rule Calculate_LPV_hours_for_leg {
+      property ilog.rules.business_name = "Calculate LPV hours for leg";
+      property ilog.rules.package_name = "Initial Calculation.LPV";
+      property status = "new";
+      when {
+         paycalc.PilotCalendar() from pilotCalendar;
+         all_pairings: collect paycalc.Pairing() in pilotCalendar.PairingsList;
+         evaluate (pilotCalendar != null);
+      } then {
+         foreach (paycalc.Pairing var$_$0 in all_pairings) {
+            foreach (paycalc.Duty var$_$1 in var$_$0.DutiesList) {
+               foreach (paycalc.Leg var$_$2 in var$_$1.legsList) {
+                  var1 = var$_$2.LegBlockHours * var$_$2.EquipmentRate;
+                  legBlockDollarValue = legBlockDollarValue + var1;
+               }
+            }
+         }
+         ?context.updateContext();
+      }
+   }
+}
+

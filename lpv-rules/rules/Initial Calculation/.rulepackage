@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Initial Calculation</name>
+  <uuid>c18f3f50-21e7-4edf-aa67-9b8a4549bbc1</uuid>
+</ilog.rules.studio.model.base:RulePackage>

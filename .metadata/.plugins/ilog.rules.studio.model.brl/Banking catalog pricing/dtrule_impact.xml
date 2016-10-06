@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryType/paper">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/cardTypeEnum/GETTER#0">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/price(float)/ACTION#0">
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditClassic">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartNotification">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartCard">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryType/electronic">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/SETTER#0">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartBillPayment">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartPassbook">
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.customer.Customer/value/GETTER#0">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.CardEnumType">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/deliveryFrequencyEnum/GETTER#0">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartInternetBanking">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.CardEnumType/DebitCard">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/addMessage(java.lang.String)/COLLECTION_ADD#0">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType/daily">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryType">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType/bi_monthly">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartAccount">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/applySpecialDiscount/PREDICATE#0">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.customer.Customer/volume/GETTER#0">
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/applyDiscountInPercentage(double,java.lang.String)/ACTION#0">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.customer.Customer">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditGold">
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartStatement">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/deliveryTypeEnum/GETTER#0">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType/ten_days">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/applyCatalogDiscountInEuros(double,java.lang.String)/ACTION#0">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/applyDiscountInPercentage(double,java.lang.String)/ACTION#0">
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d">
+            <vocElt id="com.ibm.bisc.bundle.DeliveryType/paper"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType/bi_monthly"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType"/>
+            <vocElt id="com.ibm.bisc.bundle.DeliveryType/electronic"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/deliveryFrequencyEnum/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartStatement"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/deliveryTypeEnum/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType/daily"/>
+            <vocElt id="com.ibm.bisc.bundle.DeliveryFrequencyType/ten_days"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/applyCatalogDiscountInEuros(double,java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.DeliveryType"/>
+        </rule>
+        <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82">
+            <vocElt id="com.ibm.bisc.bundle.Product/cardTypeEnum/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditClassic"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartNotification"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartAccount"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartCard"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartBillPayment"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartInternetBanking"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/applyDiscountInPercentage(double,java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditGold"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/DebitCard"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+        </rule>
+        <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10">
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/price(float)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartAccount"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartCard"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartNotification"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartBillPayment"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartPassbook"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartInternetBanking"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartStatement"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+        </rule>
+        <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed">
+            <vocElt id="com.ibm.bisc.customer.Customer"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/addMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/SETTER#0"/>
+            <vocElt id="com.ibm.bisc.customer.Customer/value/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/applySpecialDiscount/PREDICATE#0"/>
+        </rule>
+        <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d">
+            <vocElt id="com.ibm.bisc.customer.Customer"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/applyDiscountInPercentage(double,java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.customer.Customer/volume/GETTER#0"/>
+        </rule>
+        <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0">
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditGold"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/DebitCard"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/cardTypeEnum/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditClassic"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartCard"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/applyCatalogDiscountInEuros(double,java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType"/>
+        </rule>
+        <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f">
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/DebitCard"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/cardTypeEnum/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType/CreditClassic"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartCard"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartPassbook"/>
+            <vocElt id="com.ibm.bisc.bundle.CardEnumType"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartInternetBanking"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/applyDiscountInPercentage(double,java.lang.String)/ACTION#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="bundle">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </param>
+        <param id="customer">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d">
+            <param id="bundle"/>
+        </rule>
+        <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82">
+            <param id="bundle"/>
+        </rule>
+        <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10">
+            <param id="bundle"/>
+        </rule>
+        <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed">
+            <param id="bundle"/>
+            <param id="customer"/>
+        </rule>
+        <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d">
+            <param id="bundle"/>
+            <param id="customer"/>
+        </rule>
+        <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0">
+            <param id="bundle"/>
+        </rule>
+        <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f">
+            <param id="bundle"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="d2774d26-f5a0-494b-ac75-38803facb10e">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking catalog pricing/bom/modelBundle_en.voc" id="0f6acf54-f661-43f2-acdc-d6a4ad0a2441">
+            <rule id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+            <rule id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+            <rule id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+            <rule id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+            <rule id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        </vocFile>
+        <vocFile file="/Banking catalog pricing/bom/modelCustomer_en.voc" id="87e9e004-b890-416e-996f-560ec9627a7d">
+            <rule id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+            <rule id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Products in Bundle Price/Junior Account Bundle Product Discount Table.dta" id="9b45f4e2-53ab-4c8e-94b2-af02d27b8a6f"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Products in Bundle Price/Young Active Account Bundle Product Discount Table.dta" id="05da3911-ff57-48b5-a365-eeaefebb0e82"/>
+        <resource file="/Banking catalog pricing/rules/Product Price/Discounts and Promotions/Smart Card Discount Depending on Card Type.dta" id="cd7cec09-744c-41a2-824d-85aee6719bd0"/>
+        <resource file="/Banking catalog pricing/rules/Product Price/Catalog Price/Product Catalog Price Table.dta" id="e7460d27-16f7-4ff2-a659-18c48d0bed10"/>
+        <resource file="/Banking catalog pricing/rules/Product Price/Discounts and Promotions/Smart Statement Discount Depending on Delivery Options.dta" id="7fdb8c0d-22e3-472c-8b78-c58257660a8d"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Discounts and Promotions/Discount per Volume.dta" id="d3b2d755-8b2d-484a-b7bc-4e543c71ab5d"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Discounts and Promotions/Negotiation Limit table.dta" id="eb205ecd-5625-4be1-8be6-ef9135ea4fed"/>
+    </resourceTable>
+</impactTables>

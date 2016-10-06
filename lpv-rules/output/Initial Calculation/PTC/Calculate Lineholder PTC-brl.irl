@@ -1,0 +1,14 @@
+package Initial_Calculation.PTC {
+   rule Calculate_Lineholder_PTC {
+      property ilog.rules.business_name = "Calculate Lineholder PTC";
+      property ilog.rules.package_name = "Initial Calculation.PTC";
+      property status = "new";
+      when {
+         paycalc.PayCalculatorOutput() from payCalculatorOutput;
+         evaluate (the_final_LPV_hours : (payCalculatorOutput.FinalLPVHrs));
+      } then {
+         payCalculatorOutput.FinalPTCHrs = the_final_LPV_hours;
+      }
+   }
+}
+

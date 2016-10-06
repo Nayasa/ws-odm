@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="RuleHelpers/invalidData(java.lang.String)/ACTION#0">
+            <rule id="90fc1d64-7a77-4e4d-af9d-e564d1df8b0e"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType/CardHolderID/GETTER#0">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        </vocElt>
+        <vocElt id="RuleHelpers/rejectTx(java.lang.String)/ACTION#0">
+            <rule id="dbc4d403-9631-40bf-a77d-3f2fe148e9b0"/>
+        </vocElt>
+        <vocElt id="RuleHelpers/fraudTx(java.lang.String)/ACTION#0">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+            <rule id="3ec72c44-7808-4362-9b46-9e05823a719f"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType/TransAmount/GETTER#0">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        </vocElt>
+        <vocElt id="CaseManagement/CreateSAR(java.lang.String,double,java.lang.String)/ACTION#0">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5">
+            <vocElt id="com.ilog.fraud.TransactionType/CardHolderID/GETTER#0"/>
+            <vocElt id="RuleHelpers/fraudTx(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ilog.fraud.TransactionType/TransAmount/GETTER#0"/>
+            <vocElt id="com.ilog.fraud.TransactionType"/>
+            <vocElt id="CaseManagement/CreateSAR(java.lang.String,double,java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="90fc1d64-7a77-4e4d-af9d-e564d1df8b0e">
+            <vocElt id="RuleHelpers/invalidData(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="dbc4d403-9631-40bf-a77d-3f2fe148e9b0">
+            <vocElt id="RuleHelpers/rejectTx(java.lang.String)/ACTION#0"/>
+        </rule>
+        <rule id="3ec72c44-7808-4362-9b46-9e05823a719f">
+            <vocElt id="RuleHelpers/fraudTx(java.lang.String)/ACTION#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="currtrans">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5">
+            <param id="currtrans"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="800c929f-fbf7-403f-a75b-1d11ff7af591">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking credit card fraud/bom/Helpers-model_en.voc" id="a69471c6-e1a4-43e3-82a1-31894a11e9fe">
+            <rule id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+            <rule id="90fc1d64-7a77-4e4d-af9d-e564d1df8b0e"/>
+            <rule id="dbc4d403-9631-40bf-a77d-3f2fe148e9b0"/>
+            <rule id="3ec72c44-7808-4362-9b46-9e05823a719f"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking credit card fraud/templates/Fail Validation Rule template.brt" id="90fc1d64-7a77-4e4d-af9d-e564d1df8b0e"/>
+        <resource file="/Banking credit card fraud/rules/Variables Rules.var" id="800c929f-fbf7-403f-a75b-1d11ff7af591"/>
+        <resource file="/Banking credit card fraud/templates/Fraud detected Rule Template.brt" id="3ec72c44-7808-4362-9b46-9e05823a719f"/>
+        <resource file="/Banking credit card fraud/templates/Fail AML Rule Template.brt" id="5b39469e-6b06-4a3c-b76c-92391e12e6a5"/>
+        <resource file="/Banking credit card fraud/templates/Fail Authorisation Rule Template.brt" id="dbc4d403-9631-40bf-a77d-3f2fe148e9b0"/>
+    </resourceTable>
+</impactTables>

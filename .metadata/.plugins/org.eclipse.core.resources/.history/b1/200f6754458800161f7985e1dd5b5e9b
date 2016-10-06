@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Predefined Value</name>
+  <uuid>6809969b-c2d4-4703-8ab1-6b2c4a78aecf</uuid>
+  <variables name="lineHolderMPGHrs" type="double" initialValue="2.33" verbalization="The Line Holder MPG Hours"/>
+  <variables name="shortCallReserveMPGHrs" type="ilog.rules.brl.Time" initialValue="4:13:20" verbalization="The Short Call Reserve MPG Hours"/>
+</ilog.rules.studio.model.base:VariableSet>

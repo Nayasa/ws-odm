@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.acme.trafficsim.TrafficZone/trafficDensity/SETTER#0">
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/SETTER#0">
+            <rule id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone">
+            <rule id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+            <rule id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/type/GETTER#0">
+            <rule id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+            <rule id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="277986db-dd56-4599-87eb-0376ac84b6dd">
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/type/GETTER#0"/>
+        </rule>
+        <rule id="509c133a-255f-4647-8657-b86fc792ecfd">
+            <vocElt id="com.acme.trafficsim.TrafficZone/trafficDensity/SETTER#0"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/type/GETTER#0"/>
+        </rule>
+        <rule id="3ba202d4-dba9-449d-8961-98dc1360c832">
+            <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/SETTER#0"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/type/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="trafficZone">
+            <rule id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+            <rule id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+        </param>
+        <param id="trafficDensity.numberOfCarsAndCollisions">
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+        </param>
+        <param id="warning">
+            <rule id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="277986db-dd56-4599-87eb-0376ac84b6dd">
+            <param id="trafficZone"/>
+            <param id="warning"/>
+        </rule>
+        <rule id="509c133a-255f-4647-8657-b86fc792ecfd">
+            <param id="trafficZone"/>
+            <param id="trafficDensity.numberOfCarsAndCollisions"/>
+        </rule>
+        <rule id="3ba202d4-dba9-449d-8961-98dc1360c832">
+            <param id="trafficZone"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+        <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+        <rule id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+    </projectTable>
+    <variableTable>
+        <param id="29e988d8-782d-4fc2-bc45-09d7e7991c06">
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/TrafficBOM/bom/traffic_en_US.voc" id="88999902-6296-4896-81d6-b1e6af5da77e">
+            <rule id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+            <rule id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+            <rule id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/TrafficRules/rules/warning/setWarnings.dta" id="277986db-dd56-4599-87eb-0376ac84b6dd"/>
+        <resource file="/TrafficRules/rules/trafficDensity/vars.var" id="29e988d8-782d-4fc2-bc45-09d7e7991c06"/>
+        <resource file="/TrafficRules/rules/trafficDensity/determineTrafficDensity.dta" id="509c133a-255f-4647-8657-b86fc792ecfd"/>
+        <resource file="/TrafficRules" id="9ab091c6-8b12-4702-b4d5-3954296c9319"/>
+        <resource file="/TrafficRules/rules/speedLimit/setTrafficZoneSpeedLimit.dta" id="3ba202d4-dba9-449d-8961-98dc1360c832"/>
+    </resourceTable>
+</impactTables>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="RuleHelpers/convertBooleanToString(boolean)/NAVIGATION#0">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5">
+            <vocElt id="RuleHelpers/convertBooleanToString(boolean)/NAVIGATION#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="reason_out">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+        </param>
+        <param id="authorised_out">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+        </param>
+        <param id="fraud_out">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+            <rule id="ead109a1-a4f1-4f61-bc09-08800fdf7d8e"/>
+        </param>
+        <param id="validated">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5">
+            <param id="reason_out"/>
+            <param id="authorised_out"/>
+            <param id="fraud_out"/>
+            <param id="validated"/>
+        </rule>
+        <rule id="ead109a1-a4f1-4f61-bc09-08800fdf7d8e">
+            <param id="fraud_out"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="c409aa00-78bd-4974-9c96-e0bfaa94d54a">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+            <rule id="ead109a1-a4f1-4f61-bc09-08800fdf7d8e"/>
+        </param>
+        <param id="800c929f-fbf7-403f-a75b-1d11ff7af591">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking credit card fraud/bom/Helpers-model_en.voc" id="a69471c6-e1a4-43e3-82a1-31894a11e9fe">
+            <rule id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking credit card fraud/rules/Variables Rules.var" id="800c929f-fbf7-403f-a75b-1d11ff7af591"/>
+        <resource file="/Banking credit card fraud/rules/Fraud RuleFlow.rfl" id="ead109a1-a4f1-4f61-bc09-08800fdf7d8e"/>
+        <resource file="/Banking credit card fraud/rules/Main RuleFlow.rfl" id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+    </resourceTable>
+</impactTables>

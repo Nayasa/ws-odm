@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="myproduct.MyProductQuoteResponse/applyDiscount(double)/ACTION#0">
+            <rule id="ca4add50-8463-4154-b716-031f384cb3d8"/>
+        </vocElt>
+        <vocElt id="myproduct.MyProductQuoteResponse">
+            <rule id="ca4add50-8463-4154-b716-031f384cb3d8"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="ca4add50-8463-4154-b716-031f384cb3d8">
+            <vocElt id="myproduct.MyProductQuoteResponse/applyDiscount(double)/ACTION#0"/>
+            <vocElt id="myproduct.MyProductQuoteResponse"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="quoteResponse">
+            <rule id="ca4add50-8463-4154-b716-031f384cb3d8"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="ca4add50-8463-4154-b716-031f384cb3d8">
+            <param id="quoteResponse"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="ca4add50-8463-4154-b716-031f384cb3d8"/>
+    </projectTable>
+    <variableTable/>
+    <ruleVocFileTable>
+        <vocFile file="/MyProductPricingRules/bom/model_en_US.voc" id="98d99d91-449b-43b0-a5b2-9ef742608e0d">
+            <rule id="ca4add50-8463-4154-b716-031f384cb3d8"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/MyProductPricingRules" id="baadf6dd-7bd2-42df-801b-66a19807a1b6"/>
+        <resource file="/MyProductPricingRules/rules/holiday season.brl" id="ca4add50-8463-4154-b716-031f384cb3d8"/>
+    </resourceTable>
+</impactTables>

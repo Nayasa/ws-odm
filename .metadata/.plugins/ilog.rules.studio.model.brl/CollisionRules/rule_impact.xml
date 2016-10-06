@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable/>
+    <vocTable/>
+    <ruleParamTable>
+        <param id="medicalAttentionNeeded">
+            <rule id="50fe9465-7724-4b68-96ea-a69cc67c9db5"/>
+        </param>
+        <param id="collisionSeverity">
+            <rule id="50fe9465-7724-4b68-96ea-a69cc67c9db5"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="50fe9465-7724-4b68-96ea-a69cc67c9db5">
+            <param id="medicalAttentionNeeded"/>
+            <param id="collisionSeverity"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="50fe9465-7724-4b68-96ea-a69cc67c9db5"/>
+    </projectTable>
+    <variableTable/>
+    <ruleVocFileTable/>
+    <resourceTable>
+        <resource file="/CollisionRules" id="52370516-4684-4bca-bebe-fbd93ec6d57c"/>
+        <resource file="/CollisionRules/rules/collision/medicalAttentionForSevereCollisions.brl" id="50fe9465-7724-4b68-96ea-a69cc67c9db5"/>
+    </resourceTable>
+</impactTables>

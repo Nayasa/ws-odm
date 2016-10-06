@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;lpv-rules/resources/lpvcalc.xsd&apos; to &apos;paycalc.xsd&apos;" description="Rename resource &apos;lpvcalc.xsd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="resources/lpvcalc.xsd" name="paycalc.xsd" stamp="1475108216962" updateReferences="true"/>
+</session>

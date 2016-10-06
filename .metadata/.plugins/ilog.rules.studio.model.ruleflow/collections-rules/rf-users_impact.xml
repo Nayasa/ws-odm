@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="cc90bd2f-ce15-4f15-989d-a145ba56dd59" path="rules/incorrectUsage/sortArray.brl">
+        <UserFlow id="9369ccbf-3d77-41ca-9cfe-26b0132da45b"/>
+    </Rule>
+    <Rule id="2bd1798f-498e-4dfa-9f3d-1e1adc07ed4d" path="rules/correctUsage/setArray.brl">
+        <UserFlow id="10377ef5-ca75-48fa-a295-e88a587b84ec"/>
+    </Rule>
+    <Rule id="d52cf66d-2826-413d-8fe3-17e30ee0f78b" path="rules/correctUsage/addToCollection.brl">
+        <UserFlow id="10377ef5-ca75-48fa-a295-e88a587b84ec"/>
+    </Rule>
+    <Rule id="c03d185d-fad6-480b-ae8a-aa1addb86f9b" path="rules/correctUsage/setCollection.brl">
+        <UserFlow id="10377ef5-ca75-48fa-a295-e88a587b84ec"/>
+    </Rule>
+    <Rule id="3e131ebf-cf75-461d-a365-9b6951dfe59f" path="rules/incorrectUsage/sortCollection.brl">
+        <UserFlow id="9369ccbf-3d77-41ca-9cfe-26b0132da45b"/>
+    </Rule>
+    <Rule id="d336faa9-f599-4cc5-8a0a-0d672d3381d9" path="rules/correctUsage/sortArray.brl">
+        <UserFlow id="10377ef5-ca75-48fa-a295-e88a587b84ec"/>
+    </Rule>
+    <Rule id="8391b791-4430-409f-85d8-b7c39f912cc9" path="rules/correctUsage/sortCollection.brl">
+        <UserFlow id="10377ef5-ca75-48fa-a295-e88a587b84ec"/>
+    </Rule>
+    <Rule id="2bdcd4fd-1d37-4e54-83e5-d34b8559b264" path="rules/incorrectUsage/addToArray.brl">
+        <UserFlow id="9369ccbf-3d77-41ca-9cfe-26b0132da45b"/>
+    </Rule>
+    <Rule id="4c582a10-1b16-42d7-ad6b-04d0e5bd4a4d" path="rules/incorrectUsage/sortCollectionDiffTypes.brl">
+        <UserFlow id="9369ccbf-3d77-41ca-9cfe-26b0132da45b"/>
+    </Rule>
+</ImpactedElements>

@@ -1,0 +1,130 @@
+# Vocabulary Properties
+uuid = c97d3050-85a1-4cb1-9cbb-1eb8860becb1
+
+# Duty
+Duty#concept.label = duty
+Duty.DutyID#phrase.action = set the duty ID of {this} to {duty ID}
+Duty.DutyID#phrase.navigation = {duty ID} of {this}
+Duty.DutySequence#phrase.action = set the duty sequence of {this} to {duty sequence}
+Duty.DutySequence#phrase.navigation = {duty sequence} of {this}
+Duty.EndDate#phrase.action = set the end date of {this} to {end date}
+Duty.EndDate#phrase.navigation = {end date} of {this}
+Duty.SchedBriefTime#phrase.action = set the sched brief time of {this} to {sched brief time}
+Duty.SchedBriefTime#phrase.navigation = {sched brief time} of {this}
+Duty.SchedDeBriefTime#phrase.action = set the sched de brief time of {this} to {sched de brief time}
+Duty.SchedDeBriefTime#phrase.navigation = {sched de brief time} of {this}
+Duty.StartDate#phrase.action = set the start date of {this} to {start date}
+Duty.StartDate#phrase.navigation = {start date} of {this}
+Duty.legs#phrase.action = set the legs of {this} to {legs}
+Duty.legs#phrase.navigation = {legs} of {this}
+
+# Info
+Info#concept.label = info
+Info.BidPrdEndDate#phrase.action = set the bid prd end date of {this} to {bid prd end date}
+Info.BidPrdEndDate#phrase.navigation = {bid prd end date} of {this}
+Info.BidPrdStartDate#phrase.action = set the bid prd start date of {this} to {bid prd start date}
+Info.BidPrdStartDate#phrase.navigation = {bid prd start date} of {this}
+Info.EmpNumber#phrase.action = set the emp number of {this} to {emp number}
+Info.EmpNumber#phrase.navigation = {emp number} of {this}
+Info.FirstName#phrase.action = set the first name of {this} to {first name}
+Info.FirstName#phrase.navigation = {first name} of {this}
+Info.IsPilotLineholder#phrase.action = make it {pilot lineholder} that {this} is pilot lineholder
+Info.IsPilotLineholder#phrase.navigation = {this} is pilot lineholder
+Info.LPVHrs#phrase.action = set the LPVHrs of {this} to {LPVHrs}
+Info.LPVHrs#phrase.navigation = {LPVHrs} of {this}
+Info.LastName#phrase.action = set the last name of {this} to {last name}
+Info.LastName#phrase.navigation = {last name} of {this}
+Info.MPGHrs#phrase.action = set the MPGHrs of {this} to {MPGHrs}
+Info.MPGHrs#phrase.navigation = {MPGHrs} of {this}
+Info.PTCHrs#phrase.action = set the PTCHrs of {this} to {PTCHrs}
+Info.PTCHrs#phrase.navigation = {PTCHrs} of {this}
+
+# Leg
+Leg#concept.label = leg
+Leg.EndDate#phrase.action = set the end date of {this} to {end date}
+Leg.EndDate#phrase.navigation = {end date} of {this}
+Leg.EqCode#phrase.action = set the eq code of {this} to {eq code}
+Leg.EqCode#phrase.navigation = {eq code} of {this}
+Leg.FirstFlightLegIndicator#phrase.action = make it {first flight leg indicator} that {this} is first flight leg indicator
+Leg.FirstFlightLegIndicator#phrase.navigation = {this} is first flight leg indicator
+Leg.FlightNumber#phrase.action = set the flight number of {this} to {flight number}
+Leg.FlightNumber#phrase.navigation = {flight number} of {this}
+Leg.LastFlightLegIndicator#phrase.action = make it {last flight leg indicator} that {this} is last flight leg indicator
+Leg.LastFlightLegIndicator#phrase.navigation = {this} is last flight leg indicator
+Leg.LegID#phrase.action = set the leg ID of {this} to {leg ID}
+Leg.LegID#phrase.navigation = {leg ID} of {this}
+Leg.LegSequence#phrase.action = set the leg sequence of {this} to {leg sequence}
+Leg.LegSequence#phrase.navigation = {leg sequence} of {this}
+Leg.SchedBriefTime#phrase.action = set the sched brief time of {this} to {sched brief time}
+Leg.SchedBriefTime#phrase.navigation = {sched brief time} of {this}
+Leg.SchedDeBriefTime#phrase.action = set the sched de brief time of {this} to {sched de brief time}
+Leg.SchedDeBriefTime#phrase.navigation = {sched de brief time} of {this}
+Leg.StartDate#phrase.action = set the start date of {this} to {start date}
+Leg.StartDate#phrase.navigation = {start date} of {this}
+
+# Nonflying
+Nonflying#concept.label = nonflying
+Nonflying.AssignmentCode#phrase.action = set the assignment code of {this} to {assignment code}
+Nonflying.AssignmentCode#phrase.navigation = {assignment code} of {this}
+Nonflying.FromDate#phrase.action = set the from date of {this} to {from date}
+Nonflying.FromDate#phrase.navigation = {from date} of {this}
+Nonflying.NonflyingID#phrase.action = set the nonflying ID of {this} to {nonflying ID}
+Nonflying.NonflyingID#phrase.navigation = {nonflying ID} of {this}
+Nonflying.SchedBriefTime#phrase.action = set the sched brief time of {this} to {sched brief time}
+Nonflying.SchedBriefTime#phrase.navigation = {sched brief time} of {this}
+Nonflying.SchedDeBriefTime#phrase.action = set the sched de brief time of {this} to {sched de brief time}
+Nonflying.SchedDeBriefTime#phrase.navigation = {sched de brief time} of {this}
+Nonflying.ToDate#phrase.action = set the to date of {this} to {to date}
+Nonflying.ToDate#phrase.navigation = {to date} of {this}
+
+# Pairing
+Pairing#concept.label = pairing
+Pairing.Duties#phrase.action = set the duties of {this} to {duties}
+Pairing.Duties#phrase.navigation = {duties} of {this}
+Pairing.EndDate#phrase.action = set the end date of {this} to {end date}
+Pairing.EndDate#phrase.navigation = {end date} of {this}
+Pairing.PairingID#phrase.action = set the pairing ID of {this} to {pairing ID}
+Pairing.PairingID#phrase.navigation = {pairing ID} of {this}
+Pairing.PairingNumber#phrase.action = set the pairing number of {this} to {pairing number}
+Pairing.PairingNumber#phrase.navigation = {pairing number} of {this}
+Pairing.SchedBriefTime#phrase.action = set the sched brief time of {this} to {sched brief time}
+Pairing.SchedBriefTime#phrase.navigation = {sched brief time} of {this}
+Pairing.SchedDeBriefTime#phrase.action = set the sched de brief time of {this} to {sched de brief time}
+Pairing.SchedDeBriefTime#phrase.navigation = {sched de brief time} of {this}
+Pairing.SchedDeBriefTime_1#phrase.action = set the sched de brief time 1 of {this} to {sched de brief time 1}
+Pairing.SchedDeBriefTime_1#phrase.navigation = {sched de brief time 1} of {this}
+Pairing.StartDate#phrase.action = set the start date of {this} to {start date}
+Pairing.StartDate#phrase.navigation = {start date} of {this}
+
+# PilotCal
+PilotCal#concept.label = pilot cal
+PilotCal.BidPrdEndDate#phrase.action = set the bid prd end date of {this} to {bid prd end date}
+PilotCal.BidPrdEndDate#phrase.navigation = {bid prd end date} of {this}
+PilotCal.BidPrdStartDate#phrase.action = set the bid prd start date of {this} to {bid prd start date}
+PilotCal.BidPrdStartDate#phrase.navigation = {bid prd start date} of {this}
+PilotCal.EmpNumber#phrase.action = set the emp number of {this} to {emp number}
+PilotCal.EmpNumber#phrase.navigation = {emp number} of {this}
+PilotCal.FirstName#phrase.action = set the first name of {this} to {first name}
+PilotCal.FirstName#phrase.navigation = {first name} of {this}
+PilotCal.Info#phrase.action = set the info of {this} to {info}
+PilotCal.Info#phrase.navigation = {info} of {this}
+PilotCal.InfoList#phrase.action = set the infos of {this} to {info}
+PilotCal.InfoList#phrase.navigation = {info} of {this}
+PilotCal.IsPilotLineholder#phrase.action = make it {pilot lineholder} that {this} is pilot lineholder
+PilotCal.IsPilotLineholder#phrase.navigation = {this} is pilot lineholder
+PilotCal.LPVHrs#phrase.action = set the LPVHrs of {this} to {LPVHrs}
+PilotCal.LPVHrs#phrase.navigation = {LPVHrs} of {this}
+PilotCal.LastName#phrase.action = set the last name of {this} to {last name}
+PilotCal.LastName#phrase.navigation = {last name} of {this}
+PilotCal.MPGHrs#phrase.action = set the MPGHrs of {this} to {MPGHrs}
+PilotCal.MPGHrs#phrase.navigation = {MPGHrs} of {this}
+PilotCal.NonflyingAssignmentsList#phrase.action = set the nonflying assignments of {this} to {nonflying assignment}
+PilotCal.NonflyingAssignmentsList#phrase.navigation = {nonflying assignment} of {this}
+PilotCal.NonflyingList#phrase.action = set the nonflyings of {this} to {nonflying}
+PilotCal.NonflyingList#phrase.navigation = {nonflying} of {this}
+PilotCal.PTCHrs#phrase.action = set the PTCHrs of {this} to {PTCHrs}
+PilotCal.PTCHrs#phrase.navigation = {PTCHrs} of {this}
+PilotCal.PairingList#phrase.action = set the pairings of {this} to {pairing}
+PilotCal.PairingList#phrase.navigation = {pairing} of {this}
+PilotCal.PairingsList#phrase.action = set the pairings of {this} to {pairing}
+PilotCal.PairingsList#phrase.navigation = {pairing} of {this}

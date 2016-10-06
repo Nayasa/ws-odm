@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>test</name>
+  <uuid>7ad00df5-f260-4f34-91e6-2502af229f2b</uuid>
+  <locale>en_US</locale>
+</ilog.rules.studio.model.brl:ActionRule>

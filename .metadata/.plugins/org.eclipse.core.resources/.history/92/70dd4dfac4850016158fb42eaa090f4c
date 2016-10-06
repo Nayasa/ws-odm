@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>PredefinedLPVHrs</name>
+  <uuid>8ebf56b1-616b-4284-8b6e-08cfe4c711cc</uuid>
+</ilog.rules.studio.model.base:VariableSet>

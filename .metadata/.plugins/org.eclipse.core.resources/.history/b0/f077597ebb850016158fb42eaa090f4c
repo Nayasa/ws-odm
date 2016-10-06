@@ -1,0 +1,82 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/LPVCalcDecisionService//LPVCalcDecisionService/resources/lpvcalc.xsd"
+property uuid "ba95159b-cf66-4457-bf7d-aa9fbf59f987"
+
+public class Duty
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public string DutyID;
+    public string DutySequence;
+    public ilog.rules.xml.types.IlrDate EndDate;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTime;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTime;
+    public ilog.rules.xml.types.IlrDate StartDate;
+    public Leg legs;
+    public Duty();
+}
+
+public class Leg
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public ilog.rules.xml.types.IlrDate EndDate;
+    public string EqCode;
+    public boolean FirstFlightLegIndicator;
+    public string FlightNumber;
+    public boolean LastFlightLegIndicator;
+    public string LegID;
+    public string LegSequence;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTime;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTime;
+    public ilog.rules.xml.types.IlrDate StartDate;
+    public Leg();
+    public void setUnknownFirstFlightLegIndicator();
+    public void setUnknownLastFlightLegIndicator();
+}
+
+public class Nonflying
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public string AssignmentCode domain {"Training", "Sick", "Vacation", "LandingClass", "JuryDuty"};
+    public ilog.rules.xml.types.IlrDate FromDate;
+    public string NonflyingID;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTime;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTime;
+    public ilog.rules.xml.types.IlrDate ToDate;
+    public Nonflying();
+}
+
+public class Pairing
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public Duty Duties;
+    public ilog.rules.xml.types.IlrDate EndDate;
+    public string PairingID;
+    public string PairingNumber;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTime;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTime;
+    public ilog.rules.xml.types.IlrDate StartDate;
+    public Pairing();
+}
+
+public class PilotCal
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public ilog.rules.xml.types.IlrDate BidPrdEndDate;
+    public ilog.rules.xml.types.IlrDate BidPrdStartDate;
+    public string EmpNumber;
+    public string FirstName;
+    public boolean IsPilotLineholder;
+    public double LPVHrs;
+    public string LastName;
+    public double MPGHrs;
+    public java.util.Vector NonflyingAssignmentsList domain 0,* class Nonflying;
+    public double PTCHrs;
+    public java.util.Vector PairingsList domain 0,* class Pairing;
+    public PilotCal();
+    public void setUnknownIsPilotLineholder();
+    public void setUnknownLPVHrs();
+    public void setUnknownMPGHrs();
+    public void setUnknownPTCHrs();
+}
+

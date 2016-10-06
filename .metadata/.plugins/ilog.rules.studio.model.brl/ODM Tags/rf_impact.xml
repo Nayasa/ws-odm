@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="org.example.dwanswer.Question/subject/GETTER#0">
+            <rule id="e13171b2-4160-437f-a392-279de42680c7"/>
+        </vocElt>
+        <vocElt id="org.example.dwanswer.Question">
+            <rule id="e13171b2-4160-437f-a392-279de42680c7"/>
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </vocElt>
+        <vocElt id="Tools/getQuestion(int)/NAVIGATION#0">
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </vocElt>
+        <vocElt id="org.example.dwanswer.Question/tagsList/GETTER#0">
+            <rule id="e13171b2-4160-437f-a392-279de42680c7"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="e13171b2-4160-437f-a392-279de42680c7">
+            <vocElt id="org.example.dwanswer.Question"/>
+            <vocElt id="org.example.dwanswer.Question/subject/GETTER#0"/>
+            <vocElt id="org.example.dwanswer.Question/tagsList/GETTER#0"/>
+        </rule>
+        <rule id="462b2b0a-911b-4290-a504-bb5a3e553670">
+            <vocElt id="Tools/getQuestion(int)/NAVIGATION#0"/>
+            <vocElt id="org.example.dwanswer.Question"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="index">
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </param>
+        <param id="questions">
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </param>
+        <param id="question">
+            <rule id="e13171b2-4160-437f-a392-279de42680c7"/>
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="e13171b2-4160-437f-a392-279de42680c7">
+            <param id="question"/>
+        </rule>
+        <rule id="462b2b0a-911b-4290-a504-bb5a3e553670">
+            <param id="index"/>
+            <param id="questions"/>
+            <param id="question"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="311a3e53-6ec9-4988-a72d-b1efe17a72b3">
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </param>
+        <param id="8cf41a2c-9c01-43ab-8c5f-7aab4907c6c2">
+            <rule id="e13171b2-4160-437f-a392-279de42680c7"/>
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/ODM Tags/bom/dwAnswer_en_US.voc" id="6bf0a1c0-a939-4714-b9dd-3cb44c2e8809">
+            <rule id="e13171b2-4160-437f-a392-279de42680c7"/>
+            <rule id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/ODM Tags/rules/process.rfl" id="e13171b2-4160-437f-a392-279de42680c7"/>
+        <resource file="/ODM Tags/rules/processAll.rfl" id="462b2b0a-911b-4290-a504-bb5a3e553670"/>
+        <resource file="/ODM Tags/rules/variables.var" id="311a3e53-6ec9-4988-a72d-b1efe17a72b3"/>
+    </resourceTable>
+</impactTables>

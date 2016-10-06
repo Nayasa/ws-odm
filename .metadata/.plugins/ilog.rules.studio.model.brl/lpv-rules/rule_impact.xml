@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="paycalc.Leg/LegBlockHours/GETTER#0">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.PilotCalendar/PairingsList/GETTER#0">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.PilotCalendar/NoOfAvailableDays/GETTER#0">
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        </vocElt>
+        <vocElt id="paycalc.Duty/legsList/GETTER#0">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.Pairing/DutiesList/GETTER#0">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.PayCalculatorOutput/FinalMPGHrs/SETTER#0">
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        </vocElt>
+        <vocElt id="paycalc.PilotCalendar">
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.PayCalculatorOutput/FinalLPVHrs/GETTER#0">
+            <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+        </vocElt>
+        <vocElt id="paycalc.Leg/EquipmentRate/GETTER#0">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.Leg">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.PayCalculatorOutput/FinalPTCHrs/SETTER#0">
+            <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+        </vocElt>
+        <vocElt id="paycalc.Pairing">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+        <vocElt id="paycalc.PayCalculatorOutput">
+            <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        </vocElt>
+        <vocElt id="paycalc.Duty">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71">
+            <vocElt id="paycalc.PayCalculatorOutput/FinalLPVHrs/GETTER#0"/>
+            <vocElt id="paycalc.PayCalculatorOutput/FinalPTCHrs/SETTER#0"/>
+            <vocElt id="paycalc.PayCalculatorOutput"/>
+        </rule>
+        <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37">
+            <vocElt id="paycalc.PilotCalendar"/>
+            <vocElt id="paycalc.PilotCalendar/NoOfAvailableDays/GETTER#0"/>
+            <vocElt id="paycalc.PayCalculatorOutput/FinalMPGHrs/SETTER#0"/>
+            <vocElt id="paycalc.PayCalculatorOutput"/>
+        </rule>
+        <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3">
+            <vocElt id="paycalc.Leg/LegBlockHours/GETTER#0"/>
+            <vocElt id="paycalc.PilotCalendar"/>
+            <vocElt id="paycalc.PilotCalendar/PairingsList/GETTER#0"/>
+            <vocElt id="paycalc.Duty/legsList/GETTER#0"/>
+            <vocElt id="paycalc.Leg/EquipmentRate/GETTER#0"/>
+            <vocElt id="paycalc.Leg"/>
+            <vocElt id="paycalc.Pairing/DutiesList/GETTER#0"/>
+            <vocElt id="paycalc.Pairing"/>
+            <vocElt id="paycalc.Duty"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="payCalculatorOutput">
+            <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        </param>
+        <param id="legBlockDollarValue">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </param>
+        <param id="lineHolderMPGHrs">
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        </param>
+        <param id="var1">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </param>
+        <param id="pilotCalendar">
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71">
+            <param id="payCalculatorOutput"/>
+        </rule>
+        <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37">
+            <param id="payCalculatorOutput"/>
+            <param id="lineHolderMPGHrs"/>
+            <param id="pilotCalendar"/>
+        </rule>
+        <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3">
+            <param id="legBlockDollarValue"/>
+            <param id="var1"/>
+            <param id="pilotCalendar"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+        <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+    </projectTable>
+    <variableTable>
+        <param id="5e32b8c7-23f6-4600-9985-f5577e0242ed">
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </param>
+        <param id="6809969b-c2d4-4703-8ab1-6b2c4a78aecf">
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/lpv-rules/bom/paycalc_en_US.voc" id="1ab04a3b-6915-4fc5-b4ec-afee9b11422c">
+            <rule id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+            <rule id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+            <rule id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/lpv-rules" id="0743cbfa-4fd2-482d-8a1d-f7c9cb823c5d"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/Calculate LPV/Calculate LPV hours for leg.brl" id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/MPG/Calculate Lineholder MPG.brl" id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/Calculate Line holder MPG.brl" id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/PTC/Calculate Lineholder PTC.brl" id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/LPV Calculation/Calculate LPV hours for leg.brl" id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/MPG Calculation/Calculate Lineholder MPG.brl" id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/MPG Calculation/Calculate Line holder MPG.brl" id="e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/PTC Calculation/Calculate Lineholder PTC.brl" id="afea1446-ba90-4cda-9fbd-f132113dfa71"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/Calculate LPV hours for leg.brl" id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+        <resource file="/lpv-rules/rules/Variables.var" id="5e32b8c7-23f6-4600-9985-f5577e0242ed"/>
+        <resource file="/lpv-rules/rules/Predefined Value.var" id="6809969b-c2d4-4703-8ab1-6b2c4a78aecf"/>
+        <resource file="/lpv-rules/rules/Initial Calculation/LPV/Calculate LPV hours for leg.brl" id="bf969c78-bf6c-4702-bb37-1a1a9a984eb3"/>
+    </resourceTable>
+</impactTables>

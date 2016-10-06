@@ -1,0 +1,97 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/lpv-rules//lpv-rules/resources/paycalc.xsd"
+property uuid "09545926-e05a-4bde-8573-5ca531454368"
+package paycalc;
+
+
+public class Duty
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public string DutyID;
+    public string DutySequence;
+    public ilog.rules.xml.types.IlrDate EndDateOfDuty;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTimeOfDuty;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTimeOfDuty;
+    public ilog.rules.xml.types.IlrDate StartDateOfDuty;
+    public java.util.Vector legsList domain 0,* class paycalc.Leg;
+    public Duty();
+}
+
+public class Leg
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public ilog.rules.xml.types.IlrDate EndDateOfLeg;
+    public string EqCode;
+    public double EquipmentRate;
+    public boolean FirstFlightLegIndicator;
+    public string FlightNumber;
+    public boolean LastFlightLegIndicator;
+    public double LegBlockHours;
+    public string LegID;
+    public string LegSequence;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTimeOfLeg;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTimeOfLeg;
+    public ilog.rules.xml.types.IlrDate StartDateOfLeg;
+    public Leg();
+    public void setUnknownEquipmentRate();
+    public void setUnknownFirstFlightLegIndicator();
+    public void setUnknownLastFlightLegIndicator();
+    public void setUnknownLegBlockHours();
+}
+
+public class NonflyingAssignment
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public string AssignmentCode domain {"Training", "Sick", "Vacation", "LandingClass", "JuryDuty"};
+    public ilog.rules.xml.types.IlrDate FromDate;
+    public string NonflyingID;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTime;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTime;
+    public ilog.rules.xml.types.IlrDate ToDate;
+    public NonflyingAssignment();
+}
+
+public class Pairing
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public java.util.Vector DutiesList domain 0,* class paycalc.Duty;
+    public ilog.rules.xml.types.IlrDate EndDateOfPairing;
+    public string PairingID;
+    public string PairingNumber;
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTimeOfPairing;
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTimeOfPairing;
+    public ilog.rules.xml.types.IlrDate StartDateOfPairing;
+    public Pairing();
+}
+
+public class PayCalculatorOutput
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public double FinalLPVHrs;
+    public double FinalMPGHrs;
+    public double FinalPTCHrs;
+    public java.util.Vector messagesList domain 0,* class string;
+    public PayCalculatorOutput();
+    public void setUnknownFinalLPVHrs();
+    public void setUnknownFinalMPGHrs();
+    public void setUnknownFinalPTCHrs();
+}
+
+public class PilotCalendar
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public ilog.rules.xml.types.IlrDate BidPeriodEndDate;
+    public ilog.rules.xml.types.IlrDate BidPeriodStartDate;
+    public string EmpNumber;
+    public string FirstName;
+    public boolean IsPilotLineholder;
+    public string LastName;
+    public int NoOfAvailableDays;
+    public java.util.Vector NonflyingAssignmentsList domain 0,* class paycalc.NonflyingAssignment;
+    public java.util.Vector PairingsList domain 0,* class paycalc.Pairing;
+    public PilotCalendar();
+    public void setUnknownIsPilotLineholder();
+    public void setUnknownNoOfAvailableDays();
+}
+

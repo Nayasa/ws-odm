@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.ilog.fraud.TransactionType/MerchantCC/GETTER#0">
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType/Spain">
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType/Malaysia">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType/China">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType/Italy">
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="RuleHelpers/fraudTx(java.lang.String)/ACTION#0">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType/TransAmountGBP()/NAVIGATION#0">
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType/TransAmount/GETTER#0">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType/USA">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+        </vocElt>
+        <vocElt id="CountriesDomainType/UK">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+        <vocElt id="com.ilog.fraud.TransactionType/MerchantCountry/GETTER#0">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022">
+            <vocElt id="CountriesDomainType"/>
+            <vocElt id="CountriesDomainType/Malaysia"/>
+            <vocElt id="CountriesDomainType/China"/>
+            <vocElt id="RuleHelpers/fraudTx(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ilog.fraud.TransactionType/TransAmount/GETTER#0"/>
+            <vocElt id="com.ilog.fraud.TransactionType"/>
+            <vocElt id="CountriesDomainType/USA"/>
+            <vocElt id="CountriesDomainType/UK"/>
+            <vocElt id="com.ilog.fraud.TransactionType/MerchantCountry/GETTER#0"/>
+        </rule>
+        <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e">
+            <vocElt id="CountriesDomainType"/>
+            <vocElt id="com.ilog.fraud.TransactionType/MerchantCC/GETTER#0"/>
+            <vocElt id="CountriesDomainType/Spain"/>
+            <vocElt id="CountriesDomainType/Italy"/>
+            <vocElt id="RuleHelpers/fraudTx(java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ilog.fraud.TransactionType/TransAmountGBP()/NAVIGATION#0"/>
+            <vocElt id="com.ilog.fraud.TransactionType"/>
+            <vocElt id="CountriesDomainType/UK"/>
+            <vocElt id="com.ilog.fraud.TransactionType/MerchantCountry/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="currtrans">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022">
+            <param id="currtrans"/>
+        </rule>
+        <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e">
+            <param id="currtrans"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="800c929f-fbf7-403f-a75b-1d11ff7af591">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking credit card fraud/bom/TXN model_en.voc" id="5adb816e-b99d-4985-aebf-de1f8ab0237d">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocFile>
+        <vocFile file="/Banking credit card fraud/bom/Helpers-model_en.voc" id="a69471c6-e1a4-43e3-82a1-31894a11e9fe">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocFile>
+        <vocFile file="/Banking credit card fraud/bom/domain-Values_en.voc" id="3a058096-e390-44d9-b357-72b721fa33e5">
+            <rule id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+            <rule id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking credit card fraud/rules/Check transaction/3-Fraud check/1-Current transaction/Telecoms limits by country.dta" id="80b01d40-4bc8-4be4-8412-de6141ecae5e"/>
+        <resource file="/Banking credit card fraud/rules/Check transaction/3-Fraud check/1-Current transaction/Over limit by country.dta" id="606d9027-6c4b-46e1-ae69-e78cf4529022"/>
+    </resourceTable>
+</impactTables>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedPrice/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/bundleId/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/messageDiscountListList/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/catalogPrice/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/messageDiscountListList/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/GETTER#0">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc">
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/bundleId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/messageDiscountListList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/catalogPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/messageDiscountListList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="bundle">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc">
+            <param id="bundle"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="d2774d26-f5a0-494b-ac75-38803facb10e">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking catalog pricing/bom/modelBundle_en.voc" id="0f6acf54-f661-43f2-acdc-d6a4ad0a2441">
+            <rule id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking catalog pricing/rules/Pricing Process.rfl" id="7235b6f5-359e-41ca-a6fc-ef4f4cc17ccc"/>
+        <resource file="/Banking catalog pricing/rules/Parameters.var" id="d2774d26-f5a0-494b-ac75-38803facb10e"/>
+    </resourceTable>
+</impactTables>

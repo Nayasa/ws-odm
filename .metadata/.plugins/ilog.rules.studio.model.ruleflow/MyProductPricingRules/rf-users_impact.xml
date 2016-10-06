@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="ca4add50-8463-4154-b716-031f384cb3d8" path="rules/holiday season.brl">
+        <UserFlow id="ba30cb00-e0d2-4356-8463-09b0e590731e"/>
+    </Rule>
+    <Rule id="0db37bb3-f1ec-4286-a51b-b24ed8d0bd49" path="rules/quantity.dta">
+        <UserFlow id="ba30cb00-e0d2-4356-8463-09b0e590731e"/>
+    </Rule>
+</ImpactedElements>

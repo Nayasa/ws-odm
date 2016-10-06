@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="lpvcalc"
+	xmlns:tns="lpvcalc" elementFormDefault="qualified">
+	
+	<xs:element name="pilotCal" type="tns:PilotCal"></element>
+	
+		<complexType name="PilotCal">
+			<xs:sequence>
+				<xs:element name="FirstName" type="string"/>
+				<xs:element name="LastName" type="string"/>
+				<xs:element name="EmpNumber" type="string"/>
+				<xs:element name="IsPilotLineholder" type="boolean"/>
+				<xs:element name="MPGHrs" type="double"/>
+				<xs:element name="LPVHrs" type="double"/>
+				<xs:element name="PTCHrs" type="double"/>
+				<xs:element name="BidPrdStartDate" type="date"/>
+				<xs:element name="BidPrdEndDate" type="date"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" name="Pairings" type="Pairing"/>	
+				<xs:element maxOccurs="unbounded" minOccurs="0" name="NonflyingAssignments" type="Nonflying"/>
+			</xs:sequence>
+		</xs:complexType>
+	
+	<xs:complexType name="Pairing">
+		<xs:sequence>
+			<xs:element name="PairingID" type="xs:string"/>
+			<xs:element name="PairingNumber" type="xs:string"/>
+			<xs:element name="StartDate" type="xs:date"/>
+			<xs:element name="EndDate" type="xs:date"/>
+			<xs:element name="SchedBriefTime" type="xs:dateTime"/>
+			<xs:element name="SchedDeBriefTime" type="xs:dateTime"/>
+			<xs:element name="Duties" type="Duty"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Duty">
+		<xs:sequence>
+			<xs:element name="DutyID" type="xs:string"/>
+			<xs:element name="DutySequence" type="xs:string"/>
+			<xs:element name="StartDate" type="xs:date"/>
+			<xs:element name="EndDate" type="xs:date"/>
+			<xs:element name="SchedBriefTime" type="xs:dateTime"/>
+			<xs:element name="SchedDeBriefTime" type="xs:dateTime"/>
+			<xs:element name="legs" type="leg"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="leg">
+		<xs:sequence>
+			<xs:element name="LegID" type="xs:string"/>
+			<xs:element name="LegSequence" type="xs:string"/>
+			<xs:element name="EqCode" type="xs:string"/>
+			<xs:element name="FlightNumber" type="xs:string"/>
+			<xs:element name="FirstFlightLegIndicator" type="xs:boolean"/>
+			<xs:element name="LastFlightLegIndicator" type="xs:boolean"/>
+			<xs:element name="StartDate" type="xs:date"/>
+			<xs:element name="EndDate" type="xs:date"/>
+			<xs:element name="SchedBriefTime" type="xs:dateTime"/>
+			<xs:element name="SchedDeBriefTime" type="xs:dateTime"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Nonflying">
+		<xs:sequence>
+			<xs:element name="AssignmentCode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+			    		<enumeration value="Training"/>
+			    		<enumeration value="Sick"/>
+			    		<enumeration value="Vacation"/>
+			    		<enumeration value="LandingClass"/>
+			    		<enumeration value="JuryDuty"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element> 
+			<xs:element name="NonflyingID" type="xs:string"/>
+			<xs:element name="FromDate" type="xs:date"/>
+			<xs:element name="ToDate" type="xs:date"/>
+			<xs:element name="SchedBriefTime" type="xs:dateTime"/>
+			<xs:element name="SchedDeBriefTime" type="xs:dateTime"/>
+		</xs:sequence>
+	</xs:complexType>
+	<element name="finalLPVHrs" type="tns:FinalLPVHrs"></element>
+	<complexType name="FinalLPVHrs">
+		<sequence>
+			<element name="FinalLPVHrs" type="xs:double"/>
+		</sequence>
+	</complexType>	
+</xs:schema>

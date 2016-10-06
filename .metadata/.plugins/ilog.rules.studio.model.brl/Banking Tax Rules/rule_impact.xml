@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="eztax.F1040Ez/spouseSsn/GETTER#0">
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/federalIncomeTaxWitheld/GETTER#0">
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/addToMessagesList(java.lang.String)/COLLECTION_ADD#0">
+            <rule id="a88f546d-5856-4f41-ba86-278bee7b4d71"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez">
+            <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+            <rule id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+            <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+            <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/ssn/GETTER#0">
+            <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/lastName/GETTER#0">
+            <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/earnedIncomeCredit/GETTER#0">
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0">
+            <rule id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/adjustedGrossIncome/GETTER#0">
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/taxDue/SETTER#0">
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/addInvalidForm(java.lang.String)/COLLECTION_ADD#0">
+            <rule id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+            <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/firstName/GETTER#0">
+            <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/taxAllowance/GETTER#0">
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0">
+            <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+            <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/statusCode/SETTER#0">
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/wagesSalariesTips/GETTER#0">
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/totalPayments/GETTER#0">
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez/taxableInterest/GETTER#0">
+            <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12">
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="eztax.F1040Ez/ssn/GETTER#0"/>
+        </rule>
+        <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04">
+            <vocElt id="eztax.F1040Ez/adjustedGrossIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="eztax.F1040Ez/wagesSalariesTips/GETTER#0"/>
+        </rule>
+        <rule id="f6821607-5c04-4095-b8d6-38258657c1ec">
+            <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040EzResult/addInvalidForm(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+        </rule>
+        <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772">
+            <vocElt id="eztax.F1040Ez/firstName/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+        </rule>
+        <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339">
+            <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040EzResult/taxDue/SETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/statusCode/SETTER#0"/>
+        </rule>
+        <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff">
+            <vocElt id="eztax.F1040Ez/spouseSsn/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/taxAllowance/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+        </rule>
+        <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0">
+            <vocElt id="eztax.F1040Ez/federalIncomeTaxWitheld/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="eztax.F1040Ez/totalPayments/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/earnedIncomeCredit/GETTER#0"/>
+        </rule>
+        <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c">
+            <vocElt id="eztax.F1040EzResult/addInvalidForm(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040Ez/taxableInterest/GETTER#0"/>
+        </rule>
+        <rule id="03f36ac4-967a-470b-9615-b7caf2faab51">
+            <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/adjustedGrossIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/taxAllowance/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+        </rule>
+        <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313">
+            <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/adjustedGrossIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/taxAllowance/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+        </rule>
+        <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc">
+            <vocElt id="eztax.F1040Ez/spouseSsn/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez/taxAllowance/GETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+        </rule>
+        <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9">
+            <vocElt id="eztax.F1040Ez"/>
+            <vocElt id="eztax.F1040EzResult/addErrorMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="eztax.F1040Ez/lastName/GETTER#0"/>
+        </rule>
+        <rule id="a88f546d-5856-4f41-ba86-278bee7b4d71">
+            <vocElt id="eztax.F1040EzResult/addToMessagesList(java.lang.String)/COLLECTION_ADD#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="TaxThreshold">
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        </param>
+        <param id="TaxPercentage">
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        </param>
+        <param id="F1040EZ">
+            <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+            <rule id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+            <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+            <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+        </param>
+        <param id="TaxBaseAmount">
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="f6821607-5c04-4095-b8d6-38258657c1ec">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="03f36ac4-967a-470b-9615-b7caf2faab51">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339">
+            <param id="TaxThreshold"/>
+            <param id="TaxPercentage"/>
+            <param id="F1040EZ"/>
+            <param id="TaxBaseAmount"/>
+        </rule>
+        <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9">
+            <param id="F1040EZ"/>
+        </rule>
+        <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff">
+            <param id="F1040EZ"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="a4cd6ab5-9b0d-4de7-951c-434bed7d5b93">
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        </param>
+        <param id="0f767172-7ac7-4e66-90b2-109b77555c57">
+            <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+            <rule id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+            <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+            <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking Tax Rules/bom/tax_model_en_US.voc" id="c96b0421-093c-4d43-925c-a2b9624647e3">
+            <rule id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+            <rule id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+            <rule id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+            <rule id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+            <rule id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+            <rule id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+            <rule id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+            <rule id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+            <rule id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+            <rule id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+            <rule id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+            <rule id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+            <rule id="a88f546d-5856-4f41-ba86-278bee7b4d71"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-009 Single Allowance.brl" id="9794c446-0cc4-4c94-9321-36745a7e16dc"/>
+        <resource file="/Banking Tax Rules/rules/2-Correct Form/F1040-003 Taxable Interest.brl" id="27eee1df-fe4b-435b-af7c-7870958dc68c"/>
+        <resource file="/Banking Tax Rules/rules/5-Compute Tax Due/F1040-014 Apply Tax Tables.brl" id="29359946-04b8-41bf-9b4d-fd31f7a73339"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-012 Total Payments.brl" id="0b24c7eb-b295-4d46-8df2-f43fcc44dad0"/>
+        <resource file="/Banking Tax Rules/rules/1-Initialize/F1040-001 Thank you.brl" id="a88f546d-5856-4f41-ba86-278bee7b4d71"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-011 Taxable Income.brl" id="03f36ac4-967a-470b-9615-b7caf2faab51"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-004 Adjusted Gross Income.brl" id="47f6cb62-3f85-40fe-9925-4683cd4baf04"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-006 Last name.brl" id="c5e0738f-27e5-40eb-8118-0eee3c2df8f9"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-008 SSN.brl" id="bcfa1384-9f7e-4941-ae2a-e58855a32b12"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-010 Taxable Income Floor.brl" id="3c6c8226-f878-40cc-a878-d07e0c5ca313"/>
+        <resource file="/Banking Tax Rules/rules/Tax Variables.var" id="a4cd6ab5-9b0d-4de7-951c-434bed7d5b93"/>
+        <resource file="/Banking Tax Rules/rules/2-Correct Form/F1040-002 Taxable Income.brl" id="f6821607-5c04-4095-b8d6-38258657c1ec"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-005 First name.brl" id="15d7f1b3-c6ae-479e-bfa2-5fbbb8cda772"/>
+        <resource file="/Banking Tax Rules/rules/3-Valid Form/F1040-007 Married Allowance.brl" id="30e803e9-fd2c-4d0b-a872-fa9832d452ff"/>
+    </resourceTable>
+</impactTables>

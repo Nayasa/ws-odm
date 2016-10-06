@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="lpvcalc"
+	xmlns:tns="lpvcalc" elementFormDefault="qualified">
+	
+	<element name="pilotCal" type="tns:PilotCal"></element>
+	
+		<complexType name="PilotCal">
+			<sequence>
+				<element name="FirstName" type="string"/>
+				<element name="LastName" type="string"/>
+				<element name="EmpNumber" type="string"/>
+				<element name="IsPilotLineholder" type="boolean"/>
+				<element name="MPGHrs" type="double"/>
+				<element name="LPVHrs" type="double"/>
+				<element name="PTCHrs" type="double"/>
+				<element name="BidPrdStartDate" type="date"/>
+				<element name="BidPrdEndDate" type="date"/>
+				<element maxOccurs="unbounded" minOccurs="0" name="Pairings" type="tns:Pairing"/>	
+				<element maxOccurs="unbounded" minOccurs="0" name="NonflyingAssignments" type="tns:Nonflying"/>
+			</sequence>
+		</complexType>
+	
+	<complexType name="Pairing">
+		<sequence>
+			<element name="PairingID" type="string"/>
+			<element name="PairingNumber" type="string"/>
+			<element name="StartDate" type="date"/>
+			<element name="EndDate" type="date"/>
+			<element name="SchedBriefTime" type="dateTime"/>
+			<element name="SchedDeBriefTime" type="dateTime"/>
+			<element name="Duties" type="Duty"/>
+		</sequence>
+	</complexType>
+	<complexType name="Duty">
+		<sequence>
+			<element name="DutyID" type="string"/>
+			<element name="DutySequence" type="string"/>
+			<element name="StartDate" type="date"/>
+			<element name="EndDate" type="date"/>
+			<element name="SchedBriefTime" type="dateTime"/>
+			<element name="SchedDeBriefTime" type="dateTime"/>
+			<element name="legs" type="leg"/>
+		</sequence>
+	</complexType>
+	<complexType name="leg">
+		<sequence>
+			<element name="LegID" type="string"/>
+			<element name="LegSequence" type="string"/>
+			<element name="EqCode" type="string"/>
+			<element name="FlightNumber" type="string"/>
+			<element name="FirstFlightLegIndicator" type="boolean"/>
+			<element name="LastFlightLegIndicator" type="boolean"/>
+			<element name="StartDate" type="date"/>
+			<element name="EndDate" type="date"/>
+			<element name="SchedBriefTime" type="dateTime"/>
+			<element name="SchedDeBriefTime" type="dateTime"/>
+		</sequence>
+	</complexType>
+	<complexType name="Nonflying">
+		<sequence>
+			<element name="AssignmentCode">
+				<simpleType>
+					<restriction base="string">
+			    		<enumeration value="Training"/>
+			    		<enumeration value="Sick"/>
+			    		<enumeration value="Vacation"/>
+			    		<enumeration value="LandingClass"/>
+			    		<enumeration value="JuryDuty"/>
+					</restriction>
+				</simpleType>
+			</element> 
+			<element name="NonflyingID" type="string"/>
+			<element name="FromDate" type="date"/>
+			<element name="ToDate" type="date"/>
+			<element name="SchedBriefTime" type="dateTime"/>
+			<element name="SchedDeBriefTime" type="dateTime"/>
+		</sequence>
+	</complexType>
+	<element name="finalLPVHrs" type="tns:FinalLPVHrs"></element>
+	<complexType name="FinalLPVHrs">
+		<sequence>
+			<element name="FinalLPVHrs" type="double"/>
+		</sequence>
+	</complexType>	
+</schema>

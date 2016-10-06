@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.acme.trafficsim.Helper/concatenateStrings(java.lang.String,java.lang.String)/NAVIGATION#0">
+            <rule id="237e731a-db14-4829-992c-36100ac5739d"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/trafficDensity/SETTER#0">
+            <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/SETTER#0">
+            <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone">
+            <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+            <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/GETTER#0">
+            <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/numberOfCollisions/GETTER#0">
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/numberOfCars/GETTER#0">
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone/type/GETTER#0">
+            <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="237e731a-db14-4829-992c-36100ac5739d">
+            <vocElt id="com.acme.trafficsim.Helper/concatenateStrings(java.lang.String,java.lang.String)/NAVIGATION#0"/>
+        </rule>
+        <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd">
+            <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/SETTER#0"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/GETTER#0"/>
+        </rule>
+        <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7">
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/numberOfCollisions/GETTER#0"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/numberOfCars/GETTER#0"/>
+        </rule>
+        <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383">
+            <vocElt id="com.acme.trafficsim.TrafficZone/trafficDensity/SETTER#0"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone/type/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="precipitation">
+            <rule id="237e731a-db14-4829-992c-36100ac5739d"/>
+            <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+        </param>
+        <param id="trafficZone">
+            <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+            <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+        </param>
+        <param id="trafficDensity.numberOfCarsAndCollisions">
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+        </param>
+        <param id="warning">
+            <rule id="237e731a-db14-4829-992c-36100ac5739d"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="237e731a-db14-4829-992c-36100ac5739d">
+            <param id="precipitation"/>
+            <param id="warning"/>
+        </rule>
+        <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd">
+            <param id="precipitation"/>
+            <param id="trafficZone"/>
+        </rule>
+        <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7">
+            <param id="trafficZone"/>
+            <param id="trafficDensity.numberOfCarsAndCollisions"/>
+        </rule>
+        <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383">
+            <param id="trafficZone"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="237e731a-db14-4829-992c-36100ac5739d"/>
+        <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+        <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+        <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+    </projectTable>
+    <variableTable>
+        <param id="29e988d8-782d-4fc2-bc45-09d7e7991c06">
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/TrafficBOM/bom/traffic_en_US.voc" id="88999902-6296-4896-81d6-b1e6af5da77e">
+            <rule id="237e731a-db14-4829-992c-36100ac5739d"/>
+            <rule id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+            <rule id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+            <rule id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/TrafficRules/rules/trafficDensity/determineNumberOfCarsAndCollisions.brl" id="c445d493-a6c7-4c4d-af87-bee4ab4302c7"/>
+        <resource file="/TrafficRules/rules/trafficDensity/setDensityOfAccidentZone.brl" id="c00dfb28-83f6-402c-a19e-b2551bf43383"/>
+        <resource file="/TrafficRules/rules/trafficDensity/vars.var" id="29e988d8-782d-4fc2-bc45-09d7e7991c06"/>
+        <resource file="/TrafficRules/rules/warning/precipitationWarning.brl" id="237e731a-db14-4829-992c-36100ac5739d"/>
+        <resource file="/TrafficRules" id="9ab091c6-8b12-4702-b4d5-3954296c9319"/>
+        <resource file="/TrafficRules/rules/speedLimit/adjustSpeedLimitForPrecipitation.brl" id="4205f793-dc26-4c78-beb9-4df1108be3fd"/>
+    </resourceTable>
+</impactTables>

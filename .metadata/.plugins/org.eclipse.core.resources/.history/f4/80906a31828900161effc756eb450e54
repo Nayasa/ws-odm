@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calculate LPV hours for leg</name>
+  <uuid>bf969c78-bf6c-4702-bb37-1a1a9a984eb3</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions 
+	set 'all pairings' to all pairings in the pairings of 'The Pilot Calendar' ; 
+	
+if 'The Pilot Calendar' is not null 
+then for each pairing in 'all pairings' : 
+	- for each duty in the duties of this pairing : 
+		 - for each leg  in the legs of this duty : 
+		   - set 'The Leg Block Dollar Value' to the leg block hours of this leg * the equipment rate of this leg ;
+		    
+		  
+		  
+	 
+	
+
+	 ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

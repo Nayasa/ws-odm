@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/SETTER#0">
+            <rule id="a0dc1766-051e-4f0e-b910-1b916506af16"/>
+        </vocElt>
+        <vocElt id="com.acme.trafficsim.TrafficZone">
+            <rule id="a0dc1766-051e-4f0e-b910-1b916506af16"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="a0dc1766-051e-4f0e-b910-1b916506af16">
+            <vocElt id="com.acme.trafficsim.TrafficZone/speedLimit/SETTER#0"/>
+            <vocElt id="com.acme.trafficsim.TrafficZone"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="trafficZone">
+            <rule id="a0dc1766-051e-4f0e-b910-1b916506af16"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="a0dc1766-051e-4f0e-b910-1b916506af16">
+            <param id="trafficZone"/>
+        </rule>
+    </paramTable>
+    <projectTable>
+        <rule id="a0dc1766-051e-4f0e-b910-1b916506af16"/>
+    </projectTable>
+    <variableTable/>
+    <ruleVocFileTable>
+        <vocFile file="/TrafficBOM/bom/traffic_en_US.voc" id="88999902-6296-4896-81d6-b1e6af5da77e">
+            <rule id="a0dc1766-051e-4f0e-b910-1b916506af16"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/TrafficRules" id="9ab091c6-8b12-4702-b4d5-3954296c9319"/>
+        <resource file="/TrafficRules/rules/mainRuleflow.rfl" id="a0dc1766-051e-4f0e-b910-1b916506af16"/>
+    </resourceTable>
+</impactTables>

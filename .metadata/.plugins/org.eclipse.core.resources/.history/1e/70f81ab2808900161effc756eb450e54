@@ -1,0 +1,106 @@
+# Vocabulary Properties
+uuid = 1ab04a3b-6915-4fc5-b4ec-afee9b11422c
+
+# paycalc.Duty
+paycalc.Duty#concept.label = duty
+paycalc.Duty.DutyID#phrase.action = set the duty ID of {this} to {duty ID}
+paycalc.Duty.DutyID#phrase.navigation = {duty ID} of {this}
+paycalc.Duty.DutySequence#phrase.action = set the duty sequence of {this} to {duty sequence}
+paycalc.Duty.DutySequence#phrase.navigation = {duty sequence} of {this}
+paycalc.Duty.EndDateOfDuty#phrase.action = set the end date of duty of {this} to {end date of duty}
+paycalc.Duty.EndDateOfDuty#phrase.navigation = {end date of duty} of {this}
+paycalc.Duty.SchedBriefTimeOfDuty#phrase.action = set the sched brief time of duty of {this} to {sched brief time of duty}
+paycalc.Duty.SchedBriefTimeOfDuty#phrase.navigation = {sched brief time of duty} of {this}
+paycalc.Duty.SchedDeBriefTimeOfDuty#phrase.action = set the sched de brief time of duty of {this} to {sched de brief time of duty}
+paycalc.Duty.SchedDeBriefTimeOfDuty#phrase.navigation = {sched de brief time of duty} of {this}
+paycalc.Duty.StartDateOfDuty#phrase.action = set the start date of duty of {this} to {start date of duty}
+paycalc.Duty.StartDateOfDuty#phrase.navigation = {start date of duty} of {this}
+paycalc.Duty.legsList#phrase.action = set the legs of {this} to {leg}
+paycalc.Duty.legsList#phrase.navigation = {leg} of {this}
+
+# paycalc.Leg
+paycalc.Leg#concept.label = leg
+paycalc.Leg.EndDateOfLeg#phrase.action = set the end date of leg of {this} to {end date of leg}
+paycalc.Leg.EndDateOfLeg#phrase.navigation = {end date of leg} of {this}
+paycalc.Leg.EqCode#phrase.action = set the eq code of {this} to {eq code}
+paycalc.Leg.EqCode#phrase.navigation = {eq code} of {this}
+paycalc.Leg.FirstFlightLegIndicator#phrase.action = make it {first flight leg indicator} that {this} is first flight leg indicator
+paycalc.Leg.FirstFlightLegIndicator#phrase.navigation = {this} is first flight leg indicator
+paycalc.Leg.FlightNumber#phrase.action = set the flight number of {this} to {flight number}
+paycalc.Leg.FlightNumber#phrase.navigation = {flight number} of {this}
+paycalc.Leg.LastFlightLegIndicator#phrase.action = make it {last flight leg indicator} that {this} is last flight leg indicator
+paycalc.Leg.LastFlightLegIndicator#phrase.navigation = {this} is last flight leg indicator
+paycalc.Leg.LegID#phrase.action = set the leg ID of {this} to {leg ID}
+paycalc.Leg.LegID#phrase.navigation = {leg ID} of {this}
+paycalc.Leg.LegSequence#phrase.action = set the leg sequence of {this} to {leg sequence}
+paycalc.Leg.LegSequence#phrase.navigation = {leg sequence} of {this}
+paycalc.Leg.SchedBriefTimeOfLeg#phrase.action = set the sched brief time of leg of {this} to {sched brief time of leg}
+paycalc.Leg.SchedBriefTimeOfLeg#phrase.navigation = {sched brief time of leg} of {this}
+paycalc.Leg.SchedDeBriefTimeOfLeg#phrase.action = set the sched de brief time of leg of {this} to {sched de brief time of leg}
+paycalc.Leg.SchedDeBriefTimeOfLeg#phrase.navigation = {sched de brief time of leg} of {this}
+paycalc.Leg.StartDateOfLeg#phrase.action = set the start date of leg of {this} to {start date of leg}
+paycalc.Leg.StartDateOfLeg#phrase.navigation = {start date of leg} of {this}
+
+# paycalc.NonflyingAssignment
+paycalc.NonflyingAssignment#concept.label = nonflying assignment
+paycalc.NonflyingAssignment.AssignmentCode#phrase.action = set the assignment code of {this} to {assignment code}
+paycalc.NonflyingAssignment.AssignmentCode#phrase.navigation = {assignment code} of {this}
+paycalc.NonflyingAssignment.FromDate#phrase.action = set the from date of {this} to {from date}
+paycalc.NonflyingAssignment.FromDate#phrase.navigation = {from date} of {this}
+paycalc.NonflyingAssignment.NonflyingID#phrase.action = set the nonflying ID of {this} to {nonflying ID}
+paycalc.NonflyingAssignment.NonflyingID#phrase.navigation = {nonflying ID} of {this}
+paycalc.NonflyingAssignment.SchedBriefTime#phrase.action = set the sched brief time of {this} to {sched brief time}
+paycalc.NonflyingAssignment.SchedBriefTime#phrase.navigation = {sched brief time} of {this}
+paycalc.NonflyingAssignment.SchedDeBriefTime#phrase.action = set the sched de brief time of {this} to {sched de brief time}
+paycalc.NonflyingAssignment.SchedDeBriefTime#phrase.navigation = {sched de brief time} of {this}
+paycalc.NonflyingAssignment.ToDate#phrase.action = set the to date of {this} to {to date}
+paycalc.NonflyingAssignment.ToDate#phrase.navigation = {to date} of {this}
+
+# paycalc.Pairing
+paycalc.Pairing#concept.label = pairing
+paycalc.Pairing.DutiesList#phrase.action = set the duties of {this} to {duty}
+paycalc.Pairing.DutiesList#phrase.navigation = {duty} of {this}
+paycalc.Pairing.EndDateOfPairing#phrase.action = set the end date of pairing of {this} to {end date of pairing}
+paycalc.Pairing.EndDateOfPairing#phrase.navigation = {end date of pairing} of {this}
+paycalc.Pairing.PairingID#phrase.action = set the pairing ID of {this} to {pairing ID}
+paycalc.Pairing.PairingID#phrase.navigation = {pairing ID} of {this}
+paycalc.Pairing.PairingNumber#phrase.action = set the pairing number of {this} to {pairing number}
+paycalc.Pairing.PairingNumber#phrase.navigation = {pairing number} of {this}
+paycalc.Pairing.SchedBriefTimeOfPairing#phrase.action = set the sched brief time of pairing of {this} to {sched brief time of pairing}
+paycalc.Pairing.SchedBriefTimeOfPairing#phrase.navigation = {sched brief time of pairing} of {this}
+paycalc.Pairing.SchedDeBriefTimeOfPairing#phrase.action = set the sched de brief time of pairing of {this} to {sched de brief time of pairing}
+paycalc.Pairing.SchedDeBriefTimeOfPairing#phrase.navigation = {sched de brief time of pairing} of {this}
+paycalc.Pairing.StartDateOfPairing#phrase.action = set the start date of pairing of {this} to {start date of pairing}
+paycalc.Pairing.StartDateOfPairing#phrase.navigation = {start date of pairing} of {this}
+
+# paycalc.PayCalculatorOutput
+paycalc.PayCalculatorOutput#concept.label = pay calculator output
+paycalc.PayCalculatorOutput.FinalLPVHrs#phrase.action = set the final LPVHrs of {this} to {final LPVHrs}
+paycalc.PayCalculatorOutput.FinalLPVHrs#phrase.navigation = {final LPVHrs} of {this}
+paycalc.PayCalculatorOutput.FinalMPGHrs#phrase.action = set the final MPGHrs of {this} to {final MPGHrs}
+paycalc.PayCalculatorOutput.FinalMPGHrs#phrase.navigation = {final MPGHrs} of {this}
+paycalc.PayCalculatorOutput.FinalPTCHrs#phrase.action = set the final PTCHrs of {this} to {final PTCHrs}
+paycalc.PayCalculatorOutput.FinalPTCHrs#phrase.navigation = {final PTCHrs} of {this}
+paycalc.PayCalculatorOutput.messagesList#phrase.action = set the messages of {this} to {message}
+paycalc.PayCalculatorOutput.messagesList#phrase.navigation = {message} of {this}
+
+# paycalc.PilotCalendar
+paycalc.PilotCalendar#concept.label = pilot calendar
+paycalc.PilotCalendar.BidPeriodEndDate#phrase.action = set the bid period end date of {this} to {bid period end date}
+paycalc.PilotCalendar.BidPeriodEndDate#phrase.navigation = {bid period end date} of {this}
+paycalc.PilotCalendar.BidPeriodStartDate#phrase.action = set the bid period start date of {this} to {bid period start date}
+paycalc.PilotCalendar.BidPeriodStartDate#phrase.navigation = {bid period start date} of {this}
+paycalc.PilotCalendar.EmpNumber#phrase.action = set the emp number of {this} to {emp number}
+paycalc.PilotCalendar.EmpNumber#phrase.navigation = {emp number} of {this}
+paycalc.PilotCalendar.FirstName#phrase.action = set the first name of {this} to {first name}
+paycalc.PilotCalendar.FirstName#phrase.navigation = {first name} of {this}
+paycalc.PilotCalendar.IsPilotLineholder#phrase.action = make it {pilot lineholder} that {this} is pilot lineholder
+paycalc.PilotCalendar.IsPilotLineholder#phrase.navigation = {this} is pilot lineholder
+paycalc.PilotCalendar.LastName#phrase.action = set the last name of {this} to {last name}
+paycalc.PilotCalendar.LastName#phrase.navigation = {last name} of {this}
+paycalc.PilotCalendar.NoOfAvailableDays#phrase.action = set the no of available days of {this} to {no of available days}
+paycalc.PilotCalendar.NoOfAvailableDays#phrase.navigation = {no of available days} of {this}
+paycalc.PilotCalendar.NonflyingAssignmentsList#phrase.action = set the nonflying assignments of {this} to {nonflying assignment}
+paycalc.PilotCalendar.NonflyingAssignmentsList#phrase.navigation = {nonflying assignment} of {this}
+paycalc.PilotCalendar.PairingsList#phrase.action = set the pairings of {this} to {pairing}
+paycalc.PilotCalendar.PairingsList#phrase.navigation = {pairing} of {this}

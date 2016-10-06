@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0">
+            <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        </vocElt>
+        <vocElt id="eztax.F1040EzResult/taxDue/SETTER#0">
+            <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        </vocElt>
+        <vocElt id="eztax.F1040Ez">
+            <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e">
+            <vocElt id="eztax.F1040Ez/taxableIncome/GETTER#0"/>
+            <vocElt id="eztax.F1040EzResult/taxDue/SETTER#0"/>
+            <vocElt id="eztax.F1040Ez"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="F1040EZ">
+            <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e">
+            <param id="F1040EZ"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="0f767172-7ac7-4e66-90b2-109b77555c57">
+            <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking Tax Rules/bom/tax_model_en_US.voc" id="c96b0421-093c-4d43-925c-a2b9624647e3">
+            <rule id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking Tax Rules/rules/4-Tax Tables/F1040-013 Tax table.dta" id="bc0cf638-a8c7-4609-a1fe-37bcbf790d1e"/>
+        <resource file="/Banking Tax Rules/rules/Parameters.var" id="0f767172-7ac7-4e66-90b2-109b77555c57"/>
+    </resourceTable>
+</impactTables>

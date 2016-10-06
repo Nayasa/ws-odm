@@ -1,0 +1,9 @@
+
+flowtask Main {
+  property mainflowtask = false;
+  property ilog.rules.business_name = "Main";
+  property ilog.rules.package_name = "";
+  body {
+  }
+};
+

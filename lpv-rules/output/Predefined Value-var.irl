@@ -1,0 +1,4 @@
+variables {
+  double lineHolderMPGHrs = 2.33;
+  double shortCallReserveMPGHrs = 4.10;
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>Main</name>
+  <uuid>4cce7a11-2846-48a7-a421-c6cf23d3bb98</uuid>
+  <locale>en_US</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="MPG Calculation" Ordering="Default">
+        <RuleList>
+          <Package Name="Initial Calculation.MPG Calculation"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="PTC Calculation" Ordering="Default">
+        <RuleList>
+          <Package Name="Initial Calculation.PTC Calculation"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="LPV Calculation" Ordering="Default">
+        <RuleList>
+          <Package Name="Initial Calculation.LPV Calculation"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_1"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_3" Task="MPG Calculation"/>
+      <TaskNode Identifier="node_4" Task="PTC Calculation"/>
+      <TaskNode Identifier="node_5" Task="LPV Calculation"/>
+      <BranchNode Identifier="node_8"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_5"/>
+      <Transition Identifier="transition_1" Source="node_5" Target="node_3"/>
+      <Transition Identifier="transition_4" Source="node_3" Target="node_8"/>
+      <Transition Identifier="transition_5" Source="node_8" Target="node_4">
+        <Conditions Language="bal"><![CDATA[it is not true that 'The Pilot Calendar' is pilot lineholder]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_6" Source="node_8" Target="node_1"/>
+      <Transition Identifier="transition_7" Source="node_4" Target="node_1"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="en_US">
+      <Data Name="node_3#height">53.402344</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#x">221.0</Data>
+      <Data Name="node_8#x">51.19995</Data>
+      <Data Name="node_8#y">292.59998</Data>
+      <Data Name="node_4#y">331.50586</Data>
+      <Data Name="node_3#width">102.0</Data>
+      <Data Name="node_3#y">201.10352</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#x">51.0</Data>
+      <Data Name="node_8#name">node_6</Data>
+      <Data Name="node_1#width">20.000006</Data>
+      <Data Name="transition_5#label">Pilot is  Lineholder</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_5#height">53.402344</Data>
+      <Data Name="node_8#height">36.414154</Data>
+      <Data Name="transition_6#label">Pilot is Reserve</Data>
+      <Data Name="node_5#width">102.0</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_0#x">51.0</Data>
+      <Data Name="node_4#height">53.402344</Data>
+      <Data Name="node_1#x">51.000004</Data>
+      <Data Name="node_4#width">102.0</Data>
+      <Data Name="node_1#y">391.20703</Data>
+      <Data Name="node_8#width">36.414215</Data>
+      <Data Name="node_1#height">20.000006</Data>
+      <Data Name="node_5#y">97.70117</Data>
+      <Data Name="node_5#x">51.0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+  <mainFlowTask>true</mainFlowTask>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

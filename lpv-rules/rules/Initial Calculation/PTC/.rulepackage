@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>PTC</name>
+  <uuid>f14604a5-ff89-4859-9c8d-94ee0a3a70fd</uuid>
+</ilog.rules.studio.model.base:RulePackage>

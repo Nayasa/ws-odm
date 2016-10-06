@@ -1,0 +1,503 @@
+include "ilog/rules/xml/binding/xsd_types.xom";
+
+package paycalc;
+
+
+public class Duty
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "7",
+            xmlScope "global",
+            xmlType "{paycalc}Duty",
+            xsdLocation "paycalc.xsd"
+        }
+{
+    public string DutyID
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}DutyID",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string DutySequence
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}DutySequence",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public ilog.rules.xml.types.IlrDate EndDateOfDuty
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}EndDateOfDuty",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTimeOfDuty
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedBriefTimeOfDuty",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTimeOfDuty
+                property "ilog.rules.xml.fieldInfo" {
+                    index "5",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedDeBriefTimeOfDuty",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDate StartDateOfDuty
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}StartDateOfDuty",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public java.util.Vector legsList domain 0,* class paycalc.Leg
+                property "ilog.rules.xml.fieldInfo" {
+                    index "6",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}legs",
+                    xmlType "{paycalc}leg",
+                    xomComponentType "paycalc.Leg"
+                };
+    public Duty();
+}
+
+class IlogRulesXmlPackage
+        property "ilog.rules.xml.packageInfo" {
+            "1" {
+                xmlName "{paycalc}payCalculatorOutput",
+                xomType "paycalc.PayCalculatorOutput"
+            },
+            "2" {
+                xmlName "{paycalc}pilotCalendar",
+                xomType "paycalc.PilotCalendar"
+            },
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0"
+        }
+        property visible "false"
+{
+}
+
+public class Leg
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "12",
+            xmlScope "global",
+            xmlType "{paycalc}leg",
+            xsdLocation "paycalc.xsd"
+        }
+{
+    public ilog.rules.xml.types.IlrDate EndDateOfLeg
+                property "ilog.rules.xml.fieldInfo" {
+                    index "9",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}EndDateOfLeg",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public string EqCode
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}EqCode",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public double EquipmentRate
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}EquipmentRate",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public boolean FirstFlightLegIndicator
+                property "ilog.rules.xml.fieldInfo" {
+                    index "6",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FirstFlightLegIndicator",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}boolean",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdBoolean"
+                };
+    public string FlightNumber
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FlightNumber",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public boolean LastFlightLegIndicator
+                property "ilog.rules.xml.fieldInfo" {
+                    index "7",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}LastFlightLegIndicator",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}boolean",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdBoolean"
+                };
+    public double LegBlockHours
+                property "ilog.rules.xml.fieldInfo" {
+                    index "5",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}LegBlockHours",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public string LegID
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}LegID",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string LegSequence
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}LegSequence",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTimeOfLeg
+                property "ilog.rules.xml.fieldInfo" {
+                    index "10",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedBriefTimeOfLeg",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTimeOfLeg
+                property "ilog.rules.xml.fieldInfo" {
+                    index "11",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedDeBriefTimeOfLeg",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDate StartDateOfLeg
+                property "ilog.rules.xml.fieldInfo" {
+                    index "8",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}StartDateOfLeg",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public Leg();
+    public void setUnknownEquipmentRate();
+    public void setUnknownFirstFlightLegIndicator();
+    public void setUnknownLastFlightLegIndicator();
+    public void setUnknownLegBlockHours();
+}
+
+public class NonflyingAssignment
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "6",
+            xmlScope "global",
+            xmlType "{paycalc}NonflyingAssignment",
+            xsdLocation "paycalc.xsd"
+        }
+{
+
+    public class AssignmentCodeType
+            extends ilog.rules.xml.types.xsd.XsdString
+            property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+            property "ilog.rules.xml.simpleTypeInfo" {
+                version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+                xmlScope "local",
+                xsdLocation "paycalc.xsd"
+            }
+    {
+        domain {"Training", "Sick", "Vacation", "LandingClass", "JuryDuty"}
+        public static java.lang.String[] getEnumerations();
+        public static int getLength();
+        public static int getMaxLength();
+        public static int getMinLength();
+        public static string getPattern();
+        public static string toXmlString(string instance);
+    }
+    public string AssignmentCode domain {"Training", "Sick", "Vacation", "LandingClass", "JuryDuty"}
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}AssignmentCode",
+                    xomComponentType "paycalc.NonflyingAssignment.AssignmentCodeType"
+                };
+    public ilog.rules.xml.types.IlrDate FromDate
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FromDate",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public string NonflyingID
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}NonflyingID",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTime
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedBriefTime",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTime
+                property "ilog.rules.xml.fieldInfo" {
+                    index "5",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedDeBriefTime",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDate ToDate
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}ToDate",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public NonflyingAssignment();
+}
+
+public class Pairing
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "7",
+            xmlScope "global",
+            xmlType "{paycalc}Pairing",
+            xsdLocation "paycalc.xsd"
+        }
+{
+    public java.util.Vector DutiesList domain 0,* class paycalc.Duty
+                property "ilog.rules.xml.fieldInfo" {
+                    index "6",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}Duties",
+                    xmlType "{paycalc}Duty",
+                    xomComponentType "paycalc.Duty"
+                };
+    public ilog.rules.xml.types.IlrDate EndDateOfPairing
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}EndDateOfPairing",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public string PairingID
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}PairingID",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string PairingNumber
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}PairingNumber",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedBriefTimeOfPairing
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedBriefTimeOfPairing",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDateTime SchedDeBriefTimeOfPairing
+                property "ilog.rules.xml.fieldInfo" {
+                    index "5",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}SchedDeBriefTimeOfPairing",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}dateTime",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDateTime"
+                };
+    public ilog.rules.xml.types.IlrDate StartDateOfPairing
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}StartDateOfPairing",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public Pairing();
+}
+
+public class PayCalculatorOutput
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "4",
+            xmlScope "global",
+            xmlType "{paycalc}PayCalculatorOutput",
+            xsdLocation "paycalc.xsd"
+        }
+{
+    public double FinalLPVHrs
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FinalLPVHrs",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public double FinalMPGHrs
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FinalMPGHrs",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public double FinalPTCHrs
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FinalPTCHrs",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}double",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDouble"
+                };
+    public java.util.Vector messagesList domain 0,* class string
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}messages",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public PayCalculatorOutput();
+    public void setUnknownFinalLPVHrs();
+    public void setUnknownFinalMPGHrs();
+    public void setUnknownFinalPTCHrs();
+}
+
+public class PilotCalendar
+        extends ilog.rules.xml.IlrXmlObject
+        property "ilog.rules.engine.driver" "ilog.rules.xml.binding.IlrXmlClassDriver"
+        property "ilog.rules.xml.classInfo" {
+            derivation "EXTENSION",
+            model "sequence",
+            version "ilog.rules.xml.binding.IlrXmlDefaultDataDriver_7_0",
+            xmlFieldNumber "9",
+            xmlScope "global",
+            xmlType "{paycalc}PilotCalendar",
+            xsdLocation "paycalc.xsd"
+        }
+{
+    public ilog.rules.xml.types.IlrDate BidPeriodEndDate
+                property "ilog.rules.xml.fieldInfo" {
+                    index "6",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}BidPeriodEndDate",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public ilog.rules.xml.types.IlrDate BidPeriodStartDate
+                property "ilog.rules.xml.fieldInfo" {
+                    index "5",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}BidPeriodStartDate",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}date",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdDate"
+                };
+    public string EmpNumber
+                property "ilog.rules.xml.fieldInfo" {
+                    index "2",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}EmpNumber",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public string FirstName
+                property "ilog.rules.xml.fieldInfo" {
+                    index "0",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}FirstName",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public boolean IsPilotLineholder
+                property "ilog.rules.xml.fieldInfo" {
+                    index "3",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}IsPilotLineholder",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}boolean",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdBoolean"
+                };
+    public string LastName
+                property "ilog.rules.xml.fieldInfo" {
+                    index "1",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}LastName",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}string",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdString"
+                };
+    public int NoOfAvailableDays
+                property "ilog.rules.xml.fieldInfo" {
+                    index "4",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}NoOfAvailableDays",
+                    xmlType "{http://www.w3.org/2001/XMLSchema}int",
+                    xomComponentType "ilog.rules.xml.types.xsd.XsdInt"
+                };
+    public java.util.Vector NonflyingAssignmentsList domain 0,* class paycalc.NonflyingAssignment
+                property "ilog.rules.xml.fieldInfo" {
+                    index "8",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}NonflyingAssignments",
+                    xmlType "{paycalc}NonflyingAssignment",
+                    xomComponentType "paycalc.NonflyingAssignment"
+                };
+    public java.util.Vector PairingsList domain 0,* class paycalc.Pairing
+                property "ilog.rules.xml.fieldInfo" {
+                    index "7",
+                    xmlKind "ELEMENT",
+                    xmlName "{paycalc}Pairings",
+                    xmlType "{paycalc}Pairing",
+                    xomComponentType "paycalc.Pairing"
+                };
+    public PilotCalendar();
+    public void setUnknownIsPilotLineholder();
+    public void setUnknownNoOfAvailableDays();
+}
+

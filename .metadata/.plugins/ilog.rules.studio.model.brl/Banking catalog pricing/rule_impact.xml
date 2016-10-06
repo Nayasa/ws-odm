@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedPrice/GETTER#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/catalogPrice/SETTER#0">
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/negotiatedPrice/GETTER#0">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/catalogPrice/GETTER#0">
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.customer.Customer/value/GETTER#0">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.BundleIdType/YoungActiveAccount">
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/GETTER#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/addMessage(java.lang.String)/COLLECTION_ADD#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.BundleIdType">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/deductPrice(double)/ACTION#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/addPrice(float)/COLLECTION_ADD#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/applySpecialDiscount/PREDICATE#0">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.BundleIdType/JuniorAccount">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/GETTER#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.customer.Customer">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/bundleId/GETTER#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/applyDiscountInEuros(double,java.lang.String)/ACTION#0">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Product/catalogPrice/GETTER#0">
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartStatement">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.ProductIdType">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0">
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+        <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/SETTER#0">
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="fdc61897-24b5-43bf-8a64-09168c5494da">
+            <vocElt id="com.ibm.bisc.customer.Customer"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.customer.Customer/value/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/applySpecialDiscount/PREDICATE#0"/>
+        </rule>
+        <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd">
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/applyDiscountInEuros(double,java.lang.String)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType/SmartStatement"/>
+            <vocElt id="com.ibm.bisc.bundle.ProductIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/negotiatedPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+        </rule>
+        <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0">
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/catalogPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/catalogPrice/SETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/catalogPrice/GETTER#0"/>
+        </rule>
+        <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96">
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/deductPrice(double)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/negotiatedPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/addPrice(float)/COLLECTION_ADD#0"/>
+            <vocElt id="com.ibm.bisc.bundle.BundleIdType/JuniorAccount"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/bundleId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/addMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="com.ibm.bisc.bundle.BundleIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/SETTER#0"/>
+        </rule>
+        <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc">
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/deductPrice(double)/ACTION#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle"/>
+            <vocElt id="com.ibm.bisc.bundle.Product"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/negotiatedPrice/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/addPrice(float)/COLLECTION_ADD#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiationMaxMargin/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Product/productId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/bundleId/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.BundleIdType/YoungActiveAccount"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/addMessage(java.lang.String)/COLLECTION_ADD#0"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/productList/GETTER#0"/>
+            <vocElt id="com.ibm.bisc.bundle.BundleIdType"/>
+            <vocElt id="com.ibm.bisc.bundle.Bundle/negotiatedDiscount/SETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="bundle">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </param>
+        <param id="customer">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="fdc61897-24b5-43bf-8a64-09168c5494da">
+            <param id="bundle"/>
+            <param id="customer"/>
+        </rule>
+        <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd">
+            <param id="bundle"/>
+        </rule>
+        <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0">
+            <param id="bundle"/>
+        </rule>
+        <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96">
+            <param id="bundle"/>
+        </rule>
+        <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc">
+            <param id="bundle"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="d2774d26-f5a0-494b-ac75-38803facb10e">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Banking catalog pricing/bom/modelBundle_en.voc" id="0f6acf54-f661-43f2-acdc-d6a4ad0a2441">
+            <rule id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+            <rule id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+            <rule id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+            <rule id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+            <rule id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Discounts and Promotions/Trace.brl" id="fdc61897-24b5-43bf-8a64-09168c5494da"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Bundle Final Price/Bundle Catalog Price Calculation.brl" id="685031da-7000-49e6-b1c3-c0cdc588a5e0"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Bundle Final Price/Junior Account Bundle.brl" id="739d1e4e-f7a1-440f-8291-c5fc38ed3c96"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Bundle Final Price/Young Active Account Bundle.brl" id="7e48e1d4-f01c-4943-9ae7-ad95216fd6fc"/>
+        <resource file="/Banking catalog pricing/rules/Bundle Price/Products in Bundle Price/Young Active Account Bundle Discount for Smart Statement.brl" id="4e7a8dda-1fcd-4210-b1e1-5174c1ddf2cd"/>
+    </resourceTable>
+</impactTables>

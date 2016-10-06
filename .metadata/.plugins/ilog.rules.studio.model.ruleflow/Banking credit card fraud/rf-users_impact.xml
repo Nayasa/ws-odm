@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <SubFlow id="ead109a1-a4f1-4f61-bc09-08800fdf7d8e" path="rules/Fraud RuleFlow.rfl">
+        <UserFlow id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+    </SubFlow>
+    <Package id="Check transaction.3-Fraud check">
+        <UserFlow id="ead109a1-a4f1-4f61-bc09-08800fdf7d8e"/>
+    </Package>
+    <Package id="Check transaction.1-Validate attributes">
+        <UserFlow id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+    </Package>
+    <Package id="Check transaction.2-Authorisation check">
+        <UserFlow id="1c53b1ed-90b8-43e6-af0b-b131c91f60d5"/>
+    </Package>
+</ImpactedElements>

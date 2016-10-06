@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="org.example.dwanswer.Question/product/GETTER#0">
+            <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        </vocElt>
+        <vocElt id="org.example.dwanswer.Question">
+            <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        </vocElt>
+        <vocElt id="Tools/addTag(org.example.dwanswer.Question,java.lang.String)/ACTION#0">
+            <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048">
+            <vocElt id="org.example.dwanswer.Question/product/GETTER#0"/>
+            <vocElt id="org.example.dwanswer.Question"/>
+            <vocElt id="Tools/addTag(org.example.dwanswer.Question,java.lang.String)/ACTION#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="question">
+            <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048">
+            <param id="question"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="8cf41a2c-9c01-43ab-8c5f-7aab4907c6c2">
+            <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/ODM Tags/bom/dwAnswer_en_US.voc" id="6bf0a1c0-a939-4714-b9dd-3cb44c2e8809">
+            <rule id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/ODM Tags/rules/odm rules/product tag.brl" id="c92bc9a8-e041-4bd6-b059-63bafd4c1048"/>
+        <resource file="/ODM Tags/rules/parameters.var" id="8cf41a2c-9c01-43ab-8c5f-7aab4907c6c2"/>
+    </resourceTable>
+</impactTables>

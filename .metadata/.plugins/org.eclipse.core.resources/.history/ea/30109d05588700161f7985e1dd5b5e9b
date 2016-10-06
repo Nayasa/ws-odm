@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calculate Line holder MPG</name>
+  <uuid>e1c7ab99-ca4e-4702-99da-ab7fe0f3fe37</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions 
+	set 'The total available days' to the no of available days of 'The Pilot Calendar' ;
+	
+if 'The total available days' is not 0 
+	
+then
+	set the final MPGHrs of 'The Pay Calculator Output' to 'The total available days' *  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

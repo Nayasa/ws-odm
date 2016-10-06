@@ -1,0 +1,15 @@
+package Initial_Calculation.MPG {
+   use lineHolderMPGHrs;
+   rule Calculate_Lineholder_MPG {
+      property ilog.rules.business_name = "Calculate Lineholder MPG";
+      property ilog.rules.package_name = "Initial Calculation.MPG";
+      property status = "new";
+      when {
+         paycalc.PilotCalendar() from pilotCalendar;
+         evaluate (The_total_available_days : (pilotCalendar.NoOfAvailableDays));
+      } then {
+         payCalculatorOutput.FinalMPGHrs = (double) The_total_available_days  * lineHolderMPGHrs;
+      }
+   }
+}
+
